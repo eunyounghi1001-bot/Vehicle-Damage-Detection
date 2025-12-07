@@ -49,10 +49,10 @@
 
 ### 1. Metrics Comparison (베이스라인 vs 파인튜닝)
 
-| Model | Accuracy | average inference speed | FPS | GPU |
-| :---: | :---: | :---: | :---: |:---: |
-| **Baseline (pre-trained)** |88.71%| 48.23 ms/장 | 20.73 FPS |T4|
-| **Fine-tuned. ver1.0** |88.27%| 20.60 ms/장 | 48.55 FPS |L4|
+| Model | Accuracy | average inference speed | FPS | GPU | test | fail |
+| :---: | :---: | :---: | :---: |:---: | :---: |:---: |
+| **Baseline (pre-trained)** |88.71%| 48.23 ms/장 | 20.73 FPS |T4|1957 | 221 |
+| **Fine-tuned. ver1.0** |88.27%| 20.60 ms/장 | 48.55 FPS |L4|196 | 23 |
 
 | **Baseline (pre-trained)** | **Fine-tuned. ver1.0** |
 | :---: | :---: |
@@ -65,24 +65,33 @@
 | **Fine-tuned. ver1.0** |Non-Vehicle| 0.73 | 0.98 | 0.84 |  |
 | **Fine-tuned. ver1.0** |Vehicle| 0.99 | 0.84 | 0.91 | |
 
-### 2. Training Curves (학습 로그)
-학습 진행에 따른 Loss 감소와 mAP 상승 추이입니다.
-![Results Graph](runs/detect/train/results.png)
-*(위 경로는 학습 후 생성된 `runs/detect/train/results.png` 파일을 `results/` 폴더로 옮긴 후 연결하세요)*
+### 💡 Findings
+* fine-tuning을 진행했음에도 Accuracy는 오히려 하향하였고, 전반적인 성능은 pre-trained 모델과 차이가 없음
 
-### 3. Confusion Matrix
-모델이 배경(Background)과 차량(Car)을 얼마나 잘 구분하는지 보여줍니다.
-![Confusion Matrix](runs/detect/train/confusion_matrix.png)
-
-## 🖼 Validation Examples
-실제 학습된 모델이 검증 데이터(Validation Set)를 추론한 결과입니다.
-
-| Ground Truth (정답) | Prediction (예측) |
+## 원인 추정
+- 가장 유력한 원인은 학습 데이터 간의 "정답 기준"이 서로 다르기 때문일 가능성
+ - Damaged 데이터 (JSON 기반):
+    - JSON에 있던 bbox가 **차량 전체**가 아니라 **스크래치 등 파손된 부위**만 감싸고 있었을 확률이 높음.
+ - Normal 데이터 (Auto-labeling):
+    - YOLO가 자동으로 라벨링했으므로 **차량 전체**를 잡았음
+    - 
+|  damaged | normal |
 | :---: | :---: |
-| ![GT](runs/detect/train/val_batch0_labels.jpg) | ![Pred](runs/detect/train/val_batch0_pred.jpg) |
+| ![FN_1](./results/01_detection/sample_damaged.png) | ![FN2](./results/01_detection/sample_nomal.png) |
 
-## 📝 Conclusion & Next Step
-* **결론:** Fine-tuning을 통해 파손된 차량에 대한 검출 능력이 강화되었습니다. 특히 베이스라인에서 놓치던 (심한 파손/특이 각도) 차량들을 더 안정적으로 잡아냅니다.
-* **Next Step:**
-    * 차량 탐지(Object Detection) 성능은 충분히 확보되었습니다.
-    * 이제 검출된 차량 영역(Crop) 내에서 **파손의 종류(Scratch, Dent)를 분류**하거나 **파손 부위를 세그멘테이션(Segmentation)** 하는 모델 개발로 넘어갑니다.
+### 💡 Findings
+**데이터의 불일치.Inconsistency**가 성능 저하의 주원인
+ - Normal: "차량 전체" 학습
+ - Damaged: "파손된 일부분(문짝, 바퀴 등)"만 학습
+ - 결과: 모델은 "전체를 봐야 차인지, 부분만 봐도 차인지" 혼동
+
+## 📝 Conclusion 
+* **결론:** Fine-tuning을 진행했지만 성능의 차이가 없음. 그 이유는 damaged와 normal의 labeling 데이터의 불일치로 추정됨. damaged의 라벨의 bbox 좌표를 YOLO 포맷으로 변환했고, normal은 YOLO-AUTO LABELING으로 차량 전체를 학습했기 때문
+
+## Next Step  
+**하이브리드 라벨링 전략.Hybrid Labeling Strategy**
+* 1단계 (우선순위): Auto-Labeling (YOLOv8x)
+  - 일단 Pre-trained 모델로 **차량 전체 형상**을 찾음
+* 2단계 (Fallback): JSON 라벨 활용
+  - 만약 모델이 너무 확대된(Zoom-in) 이미지라 차량을 못 찾으면(Empty), 그때 **JSON의 파손 부위 좌표**를 가져옴
+  - 이유: "못 찾았다고 빈 파일(Background)"로 두지 않고, Damaged 폴더에 부분만이라도 '차량'이라고 학습습
