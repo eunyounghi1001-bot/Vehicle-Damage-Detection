@@ -50,24 +50,33 @@ Confidence Threshold(임계값)를 변경해가며 전체 데이터셋에 대한
 | **0.25** |85.49%| 47.94 ms/장 | 20.86 FPS |
 | **0.10** |88.71%| 48.23 ms/장 | 20.73 FPS |
 
-| **0.25** | **0.10** |
+| **Conf 0.25** | **Conf 0.10** |
 | :---: | :---: |
-| ![025](./results/01_detection/confusion_matrix_025.png) | ![010](./results/01_detection/confusion_matrix_010.png) |
+| ![Conf 0.25](./results/01_detection/confusion_matrix_025.png) | ![Conf 0.10](./results/01_detection/confusion_matrix_010.png) |
 
 
 | Conf Threshold | Class | Precision | Recall | f1 | 비고 |
 | :---: | :---: | :---: | :---: | :--- | :--- |
 | **0.25** |Non-Vehicle| 0.68 | 0.99 | 0.81 | precision 낮음 |
 | **0.25** |Vehicle| 0.99 | 0.80 | 0.88 | recall 낮음 |
-| **0.10** |Non-Vehicle| 0.74 | 0.96 | 0.84 | precision 낮음 |
-| **0.25** |Vehicle| 0.91 | 0.89 | 0.89 | recall 낮음 |
+| **0.10** |Non-Vehicle| 0.74 | 0.96 | 0.84 | precision 상승 |
+| **0.25** |Vehicle| 0.91 | 0.89 | 0.89 | recall 상승 |
 
 ### 💡 Findings
-* **Confidence 0.25:** 재현율(Recall)은 높으나, 배경 이미지에서 일부 오탐지(False Positive) 발생.
-* **Confidence 0.50:** 파손된 차량도 놓치지 않으면서 오탐지가 현저히 줄어듦. 베이스라인으로 적합 판단.
+* confidence threshold 하향(0.25->0.10)한 결과, 재현율(Recall)은 높으나, accuracy 3.3% 상승
+* FN(차량임에도 차량이 아니라고 예측한 대상은 감소하였고,) FP(차량이 아님에도 차량이라고 예측한 대상은 소폭 증가)
+
+## 📊 3. Visual Inspection (FN)
+ -  차량임에도 차량이 아니라고 예측한 대상의 샘플
+
+|  FN_1 | FN2 |
+| :---: | :---: |
+| ![FN_1](./results/01_detection/sample_damaged_no_detection.png) | ![FN2](./results/01_detection/sample_damaged_no_detection3.png) |
+| ![FN_1](./results/01_detection/sample_damaged_no_detection2.png) | ![FN2](./results/01_detection/sample_damaged_no_detection5.png) |
 
 ---
 
 ## 📝 Conclusion & Next Step
-* **결론:** Pre-trained YOLOv8x 모델은 별도의 Fine-tuning 없이도 '차량 인식(Vehicle Detection)' 단계에서 충분한 성능을 보여줍니다. 파손된 차량도 'Car'로 잘 인식하므로, 1단계(차량 찾기) 모델로 채택 가능합니다.
-* **Next Step:** 이제 차량 영역(ROI) 안에서 **'어디가 파손되었는지(Damage Localization)'**를 찾는 모델을 학습시키는 **Step 2. Damage Detection Fine-tuning**을 진행합니다.
+* **결론:** Pre-trained YOLOv8x 모델은 별도의 Fine-tuning 없이도 '차량 인식(Vehicle Detection)' 단계에서 충분한 성능을 보여줌(Accuracy 88.71%) 
+* **Next Step:** 성능을 더 높이기 위해 fine-tuning 진행
+
