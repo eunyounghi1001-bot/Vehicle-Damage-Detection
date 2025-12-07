@@ -1,7 +1,7 @@
 ### Step 0. Dataset Preparation
 
-딥러닝 모델 학습을 위한 **차량 이미지 데이터셋(Dataset)**을 구축하는 단계  
-AI-Hub의 파손 차량 데이터와 COCO 데이터셋의 정상 차량/배경 이미지를 결합하여, **파손 탐지(Damage Detection)**뿐만 아니라 **오탐지(False Positive) 방지**까지 고려한 데이터셋을 설계
+딥러닝 모델 학습을 위한 **차량 이미지 Dataset**을 구축하는 단계  
+AI-Hub의 파손 차량 데이터와 COCO 데이터셋의 정상 차량/배경 이미지를 결합하여, **파손 탐지**뿐만 아니라 **오탐지(False Positive) 방지**까지 고려한 데이터셋을 설계
 
 #### Objective (목표)
 1.  **High Quality Data:** 원본 해상도를 유지하기 위해 리사이징 없이 수집 (`Dataset_No_Resizing`).
