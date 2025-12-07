@@ -3,7 +3,6 @@
 딥러닝을 활용한 차량 파손 탐지 및 분류 프로젝트 스터디
 
 ## Project Roadmap & Study Log
-각 단계의 **[상세보기]**를 클릭하면 해당 실험의 상세 리포트로 이동
 
 | Stage | Topic | Model | Status | Report |
 | :--- | :--- | :--- | :--- | :--- |
