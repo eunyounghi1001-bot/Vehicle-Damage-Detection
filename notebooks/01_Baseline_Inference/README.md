@@ -25,12 +25,12 @@
 * 차량 : 비차량 = 1357 : 600 =  0.694 : 0.306
 
 ### ✅ Case 1: Normal & Damaged Car
-파손 여부와 관계없이 모델이 차량의 BBox를 정확히 잡는지 확인합니다.
+파손 여부와 관계없이 모델이 차량의 BBox를 정확히 잡는지 확인
 
 | Normal Car (정상) | Damaged Car (파손) |
 | :---: | :---: |
-| ![Normal](../results/01_detection/sample_normal.jpg) | ![Damaged](../results/01_detection/sample_damaged.jpg) |
-> **Result:** YOLOv8x 모델은 찌그러지거나 긁힌 차량도 시각적 특징(바퀴, 형태 등)을 통해 **'Car'로 정확히 인식**함을 확인했습니다.
+| ![Normal](./results/01_detection/sample_normal.png) | ![Damaged](./results/01_detection/sample_damaged.png) |
+> **Result:** YOLOv8x 모델은 찌그러지거나 긁힌 차량도 시각적 특징(바퀴, 형태 등)을 통해 **'Car'로 정확히 인식**함을 확인
 
 ### ✅ Case 2: Background (Negative Sample)
 차량이 없는 이미지에서의 오탐지 여부
