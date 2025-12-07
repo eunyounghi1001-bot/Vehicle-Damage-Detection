@@ -74,7 +74,7 @@
     - JSON에 있던 bbox가 **차량 전체**가 아니라 **스크래치 등 파손된 부위**만 감싸고 있었을 확률이 높음.
  - Normal 데이터 (Auto-labeling):
     - YOLO가 자동으로 라벨링했으므로 **차량 전체**를 잡았음
-    - 
+   
 |  damaged | normal |
 | :---: | :---: |
 | ![FN_1](./results/01_detection/sample_damaged.png) | ![FN2](./results/01_detection/sample_nomal.png) |
