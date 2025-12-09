@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/thanxjiny/Vehicle-Damage-Detection/edit/main/notebooks/03_Car_Detection_FineTuning_2nd/3_study1_yolov8x_fine_tuning_2nd.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/thanxjiny/Vehicle-Damage-Detection/blob/main/notebooks/03_Car_Detection_FineTuning_2nd/3_study1_yolov8x_fine_tuning_2nd.ipynb)
 
 # 🚀 Step 3. YOLOv8x Fine-tuning (2nd Attempt)
 
