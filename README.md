@@ -4,6 +4,12 @@
 
 ## theory
 
+| Topic | Status | Report |
+| :---| :--- | :--- |
+| object detection basic | ✅ Done | [상세보기](./theory/01_Object_Detection/README.md) |
+| yolo| ✅ Done | [상세보기](./theory/02_YOLO/README.md) |
+
+
 
 ## Project Roadmap & Study Log
 
