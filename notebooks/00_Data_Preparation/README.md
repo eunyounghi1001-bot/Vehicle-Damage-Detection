@@ -1,3 +1,7 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/thanxjiny/Vehicle-Damage-Detection/blob/main/notebooks/00_Data_Preparation/00_dataset_preparation.ipynb)
+
+
+
 ### Step 0. Dataset Preparation
 
 딥러닝 모델 학습을 위한 **차량 이미지 Dataset**을 구축하는 단계  
