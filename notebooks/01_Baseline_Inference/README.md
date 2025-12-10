@@ -1,3 +1,6 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/thanxjiny/Vehicle-Damage-Detection/blob/main/notebooks/00_Baseline_Inference/1_study1_yolov8x_pre_trained_only_inference.ipynb)
+
+
 # 🔍 Step 1. Baseline Inference: Vehicle Detection
 
 본격적인 파손 탐지(Damage Detection) 모델을 개발하기 전, **COCO 데이터셋으로 사전 학습된(Pre-trained) YOLOv8x 모델**이 우리가 구축한 데이터셋에 대해 **'차량(Car)' 객체를 얼마나 안정적으로 검출하는지** 베이스라인 성능을 점검
