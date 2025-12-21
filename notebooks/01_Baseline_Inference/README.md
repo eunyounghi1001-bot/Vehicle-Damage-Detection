@@ -11,7 +11,10 @@
 3.  **Threshold Tuning:** 최적의 Confidence Threshold 값을 탐색하여 Recall(재현율)과 Precision(정밀도)의 균형점 확인.
 
 ## 🛠 Experiment Setup
-* **Model:** YOLOv8x (Pre-trained on COCO)
+* **Model:** YOLOv8x (Extra Large, Pre-trained on COCO)
+  - 원본 해상도 활용: CNN 분류 모델(ResNet 등)은 이미지를 224x224로 찌그러뜨려야 하지만, YOLO는 원본 비율을 유지하며 고해상도 처리가 가능
+  - 작은 객체 탐지: 배경 속에 작게 찍힌 차량이나, 일부만 나온 차량도 잘 찾음
+  - 검증된 성능: COCO 데이터셋으로 이미 학습되어 있어, 추가 학습 없이도 차량 인식이 가능
 * **Input Resolution:** Original Size (No Resizing)
 * **Task:** Object Detection (Class: Car)
 * **Environment:** Google Colab Pro (T4/A100 GPU)
