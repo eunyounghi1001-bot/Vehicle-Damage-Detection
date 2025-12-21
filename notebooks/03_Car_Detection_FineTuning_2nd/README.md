@@ -6,7 +6,7 @@
 
 ## 🎯 Objective (실험 목표)
 1.  **Domain Adaptation:** 일반적인 COCO 데이터셋뿐만 아니라, **심하게 파손된 차량(Damaged Car)** 데이터 분포에 모델을 적응시킴
-2.  **Performance Boost:** 베이스라인 대비 **mAP(평균 정밀도)**와 **Recall(재현율)**을 얼마나 향상시킬 수 있는지 확인
+2.  **Performance Boost:** 베이스라인 대비 **mAP(평균 정밀도)** 와 **Recall(재현율)** 을 얼마나 향상시킬 수 있는지 확인
 3.  **Optimization:** 우리 데이터셋에 맞는 최적의 하이퍼파라미터(Epochs, Batch size 등)를 탐색
 
 ## 🛠 Experiment Setup (학습 환경)
@@ -51,20 +51,21 @@
 ## 📊 Training Results (학습 결과)
 학습 완료 후 `model.val()`을 통해 얻은 최종 성능 지표입니다.
 
-### 1. Metrics Comparison (베이스라인 vs 파인튜닝 1st vs 파인튜닝 2nd)
+### 1. Metrics Comparison (베이스라인 vs 파인튜닝 1st vs 파인튜닝 2nd vs vs 파인튜닝 3rd)
 
-| Model | Accuracy | average inference speed | FPS | GPU | test | fail |비고 |
-| :---: | :---: | :---: | :---: |:---: | :---: |:---: |:---: |
-| **Baseline (pre-trained)** |88.71%| 48.23 ms/장 | 20.73 FPS |T4|1957 | 221 |no-tuning |
-| **Fine-tuned. ver1.0** |88.27%| 20.60 ms/장 | 48.55 FPS |L4|196 | 23 | freeze10 + epoch 50 |
-| **Fine-tuned. ver2.0** |97.45%| 20.12 ms/장 | 49.70 FPS |L4|196 | 5 | ver1.0 + hybrid labeling |
+| Class | Model | Accuracy | average inference speed | FPS | GPU | test | fail |비고 |
+| :---: | :---: | :---: | :---: | :---: |:---: | :---: |:---: |:---: |
+| **Baseline (pre-trained)** |yolo v8x|88.71%| 48.23 ms/장 | 20.73 FPS |T4|1957 | 221 |no-tuning |
+| **Fine-tuned. ver1.0** | yolo v8x|88.27%| 20.60 ms/장 | 48.55 FPS |L4|196 | 23 | freeze10 + epoch 50 |
+| **Fine-tuned. ver2.0** | yolo v8x|97.45%| 20.12 ms/장 | 49.70 FPS |L4|196 | 5 | ver1.0 + hybrid labeling |
+| **Fine-tuned. ver3.0** | yolo v8m|98.47%| 22.98 ms/장 | 43.51 FPS |L4|196 | 3 | ver1.0 + hybrid labeling + IMG_SIZE 1024 + BATCH_SIZE 8 + close_mosaic 15|
 
 ### 💡 Findings
-* fine-tuning을 통해 Accuracy는 비약적으로 상승(88.71% > 97.45%)하였고, 특히 FN는 줄고, TP가 상승하였다.
+* fine-tuning을 통해 Accuracy는 비약적으로 상승(88.71% > 98.47%)하였고, 특히 FN는 줄고, TP가 상승하였다.
 
-| **Baseline (pre-trained)** | **Fine-tuned. ver1.0** | **Fine-tuned. ver2.0** |
-| :---: | :---: | :---: |
-| ![Baseline](./results/01_detection/confusion_matrix_010.png) | ![Fine-tuned](./results/01_detection/confusion_matrix_fine_tuning_1st.png) | ![Fine-tuned2](./results/01_detection/confusion_matrix_fine_tuning_2nd.png) |
+| **Baseline (pre-trained)** | **Fine-tuned. ver1.0** | **Fine-tuned. ver2.0** | **Fine-tuned. ver3.0** |
+| :---: | :---: | :---: | :---: |
+| ![Baseline](./results/01_detection/confusion_matrix_010.png) | ![Fine-tuned](./results/01_detection/confusion_matrix_fine_tuning_1st.png) | ![Fine-tuned2](./results/01_detection/confusion_matrix_fine_tuning_2nd.png) | ![Fine-tuned3](./results/01_detection/confusion_matrix_fine_tuning_3rd.png) |
 
 | Model | Class | Precision | Recall | f1 | 
 | :---: | :---: | :---: | :---: | :--- | 
@@ -74,6 +75,8 @@
 | **Fine-tuned. ver1.0** |Vehicle| 0.99 | 0.84 | 0.91 | 
 | **Fine-tuned. ver2.0** |Non-Vehicle| 0.97 | 0.95 | 0.96 |
 | **Fine-tuned. ver2.0** |Vehicle| 0.98 | 0.99 | 0.98 | 
+| **Fine-tuned. ver3.0** |Non-Vehicle| 0.98 | 0.97 | 0.97 |
+| **Fine-tuned. ver3.0** |Vehicle| 0.99 | 0.99 | 0.99 | 
 
 | **model results** | 
 | :---: | 
@@ -89,5 +92,26 @@
     - GT : 차량 파손 부위 일부를 라벨링
     - predicted : 차량 전체 향상을 라벨링
 
+## 🛠 오탐 대상 
+ - damaged images(2) 중 이미지가 뒤집혔거나, 파손 부위가 확대된 차량 이미지를 인식하지 못함
+
+| **false samples** | 
+| :---: |
+| <img src="./results/01_detection/2nd_false_sample.png" width="50%"> |
+
+## fine-tuning 3rd
+   1) 해상도 증가하여 미세한 부위 명확히 구분
+   2) 모델 경량화하여 리소스 효율성 확보 및 과적합 방지
+   3) **Mosaic 증강** 종료 시점 설정
+      - Mosaic 증강이란? 4장의 이미지를 랜덤하게 잘라 붙여서 1장으로 만드는 기법. 이는 모델이 다양한 스케일과 배경을 학습하게 하여 일반화 성능을 높여줌.
+      - 왜 끄나요? Mosaic 이미지는 인위적으로 합성된 이미지라 실제 자연스러운 이미지와는 다름. 학습 초기에는 좋지만, 후반부에는 **실제 원본 이미지**의 분포를 익혀야 파손 부위의 정확한 좌표를 잡을 수 있음
+      - 효과: 마지막 15 Epoch 동안은 원본 형태의 이미지만 보게 하여, BBox(박스) 위치를 미세 조정하고 오탐을 줄여 성능을 안정화
+        
+| **false samples** | 
+| :---: |
+| <img src="./results/01_detection/3rd_false_sample.png" width="50%"> |
+   
+ 
+
 ## 📝 Conclusion 
-* **결론:** 하이브리드 라벨링을 전략을 활용한 Fine-tuning을 통해 모델의 정확도를 비약적으로 상승시킴(97.45%)
+* **결론:** 하이브리드 라벨링을 전략을 활용한 Fine-tuning을 통해 모델의 정확도를 비약적으로 상승시킴(98.47%)
