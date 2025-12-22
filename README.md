@@ -7,7 +7,10 @@
 | Topic | Status | Report |
 | :---| :--- | :--- |
 | object detection basic | ✅ Done | [상세보기](./theory/01_Object_Detection/README.md) |
+| object detection basic | ✅ Done | [상세보기](./theory/이미지분석기본개념.md) |
 | YOLO| ✅ Done | [상세보기](./theory/02_YOLO/README.md) |
+
+
 
 
 
