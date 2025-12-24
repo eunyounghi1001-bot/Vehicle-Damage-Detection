@@ -1,0 +1,6 @@
+﻿metric,value,percentage
+Accuracy,0.46017699115044247,46.02%
+Precision,0.9642857142857143,96.43%
+Recall,0.3103448275862069,31.03%
+F1-Score,0.4695652173913043,46.96%
+Specificity,0.0,0.00%

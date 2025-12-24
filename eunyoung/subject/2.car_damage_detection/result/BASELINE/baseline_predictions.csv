@@ -1,0 +1,393 @@
+﻿image,gt,pred,detection_count,detected_classes,correct
+bg_0405.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8283026218414307}]",False
+bg_0013.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.7616287469863892}]",False
+bg_0435.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.6410965919494629}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6097860932350159}]",False
+bg_0259.jpg,normal,damaged,3,"[{'class_id': 28, 'class_name': 'suitcase', 'confidence': 0.6363412141799927}, {'class_id': 28, 'class_name': 'suitcase', 'confidence': 0.6288594007492065}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5784980654716492}]",False
+bg_0392.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8613911867141724}]",False
+bg_0477.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9232902526855469}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.9111062288284302}]",False
+bg_0598.jpg,normal,damaged,3,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9383211731910706}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8512421250343323}, {'class_id': 40, 'class_name': 'wine glass', 'confidence': 0.6935117244720459}]",False
+bg_0474.jpg,normal,damaged,1,"[{'class_id': 15, 'class_name': 'cat', 'confidence': 0.8466756343841553}]",False
+bg_0492.jpg,normal,damaged,11,"[{'class_id': 75, 'class_name': 'vase', 'confidence': 0.8393831253051758}, {'class_id': 75, 'class_name': 'vase', 'confidence': 0.7765218615531921}, {'class_id': 75, 'class_name': 'vase', 'confidence': 0.771899938583374}, {'class_id': 75, 'class_name': 'vase', 'confidence': 0.7444913387298584}, {'class_id': 75, 'class_name': 'vase', 'confidence': 0.6674588918685913}, {'class_id': 75, 'class_name': 'vase', 'confidence': 0.6392073035240173}, {'class_id': 75, 'class_name': 'vase', 'confidence': 0.6143085956573486}, {'class_id': 75, 'class_name': 'vase', 'confidence': 0.5782005190849304}, {'class_id': 75, 'class_name': 'vase', 'confidence': 0.5481277108192444}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5330785512924194}, {'class_id': 75, 'class_name': 'vase', 'confidence': 0.5255319476127625}]",False
+bg_0369.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8821402788162231}, {'class_id': 38, 'class_name': 'tennis racket', 'confidence': 0.742552638053894}]",False
+bg_0281.jpg,normal,damaged,7,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9246038198471069}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7228911519050598}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7155348658561707}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6493825316429138}, {'class_id': 25, 'class_name': 'umbrella', 'confidence': 0.601844310760498}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5995848178863525}, {'class_id': 25, 'class_name': 'umbrella', 'confidence': 0.5613068342208862}]",False
+bg_0112.jpg,normal,damaged,3,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8509942889213562}, {'class_id': 3, 'class_name': 'motorcycle', 'confidence': 0.7644927501678467}, {'class_id': 3, 'class_name': 'motorcycle', 'confidence': 0.6209408640861511}]",False
+bg_0379.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9240893721580505}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5409328937530518}]",False
+bg_0356.jpg,normal,damaged,3,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8866385817527771}, {'class_id': 32, 'class_name': 'sports ball', 'confidence': 0.8377042412757874}, {'class_id': 38, 'class_name': 'tennis racket', 'confidence': 0.7589285373687744}]",False
+bg_0402.jpg,normal,damaged,3,"[{'class_id': 36, 'class_name': 'skateboard', 'confidence': 0.919706404209137}, {'class_id': 1, 'class_name': 'bicycle', 'confidence': 0.7718297243118286}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7681754231452942}]",False
+bg_0313.jpg,normal,damaged,9,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9051682949066162}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.874826967716217}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8628447651863098}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8598567843437195}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.856415331363678}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8287631273269653}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.812462568283081}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6634684205055237}, {'class_id': 60, 'class_name': 'dining table', 'confidence': 0.6327469944953918}]",False
+bg_0040.jpg,normal,damaged,3,"[{'class_id': 15, 'class_name': 'cat', 'confidence': 0.9159778952598572}, {'class_id': 41, 'class_name': 'cup', 'confidence': 0.5903809666633606}, {'class_id': 39, 'class_name': 'bottle', 'confidence': 0.5588243007659912}]",False
+bg_0506.jpg,normal,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.6876373887062073}]",False
+bg_0467.jpg,normal,damaged,3,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8407329320907593}, {'class_id': 36, 'class_name': 'skateboard', 'confidence': 0.7747200131416321}, {'class_id': 1, 'class_name': 'bicycle', 'confidence': 0.5477386116981506}]",False
+bg_0217.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9232261180877686}, {'class_id': 33, 'class_name': 'kite', 'confidence': 0.8113234043121338}]",False
+bg_0276.jpg,normal,damaged,5,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.880596399307251}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8704473972320557}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8506922125816345}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8246191143989563}, {'class_id': 13, 'class_name': 'bench', 'confidence': 0.5851370692253113}]",False
+bg_0588.jpg,normal,damaged,1,"[{'class_id': 8, 'class_name': 'boat', 'confidence': 0.7178870439529419}]",False
+bg_0261.jpg,normal,damaged,7,"[{'class_id': 18, 'class_name': 'sheep', 'confidence': 0.8669747114181519}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7907158732414246}, {'class_id': 18, 'class_name': 'sheep', 'confidence': 0.7729887366294861}, {'class_id': 18, 'class_name': 'sheep', 'confidence': 0.6746289134025574}, {'class_id': 18, 'class_name': 'sheep', 'confidence': 0.5892956256866455}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5892037749290466}, {'class_id': 18, 'class_name': 'sheep', 'confidence': 0.5687531232833862}]",False
+bg_0235.jpg,normal,damaged,4,"[{'class_id': 33, 'class_name': 'kite', 'confidence': 0.7863497734069824}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6666909456253052}, {'class_id': 33, 'class_name': 'kite', 'confidence': 0.5603960156440735}, {'class_id': 33, 'class_name': 'kite', 'confidence': 0.5217143893241882}]",False
+bg_0054.jpg,normal,normal,0,[],True
+bg_0513.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9080665707588196}, {'class_id': 67, 'class_name': 'cell phone', 'confidence': 0.6793376207351685}]",False
+bg_0386.jpg,normal,damaged,4,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8513866662979126}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.576616108417511}, {'class_id': 46, 'class_name': 'banana', 'confidence': 0.5727449655532837}, {'class_id': 46, 'class_name': 'banana', 'confidence': 0.5020043849945068}]",False
+bg_0457.jpg,normal,damaged,1,"[{'class_id': 16, 'class_name': 'dog', 'confidence': 0.9387155175209045}]",False
+bg_0359.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.7266579866409302}]",False
+bg_0196.jpg,normal,damaged,4,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.7264313101768494}, {'class_id': 23, 'class_name': 'giraffe', 'confidence': 0.7149521708488464}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6988134384155273}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6130263209342957}]",False
+bg_0545.jpg,normal,damaged,3,"[{'class_id': 63, 'class_name': 'laptop', 'confidence': 0.9318730235099792}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6376467943191528}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5782845616340637}]",False
+bg_0034.jpg,normal,damaged,5,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9246805906295776}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8245410919189453}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7412983775138855}, {'class_id': 65, 'class_name': 'remote', 'confidence': 0.5308365225791931}, {'class_id': 56, 'class_name': 'chair', 'confidence': 0.5148324370384216}]",False
+bg_0227.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8594587445259094}, {'class_id': 30, 'class_name': 'skis', 'confidence': 0.568045437335968}]",False
+bg_0039.jpg,normal,damaged,1,"[{'class_id': 1, 'class_name': 'bicycle', 'confidence': 0.9495055675506592}]",False
+bg_0254.jpg,normal,damaged,13,"[{'class_id': 41, 'class_name': 'cup', 'confidence': 0.9075082540512085}, {'class_id': 41, 'class_name': 'cup', 'confidence': 0.9041788578033447}, {'class_id': 41, 'class_name': 'cup', 'confidence': 0.8347268104553223}, {'class_id': 53, 'class_name': 'pizza', 'confidence': 0.8303532600402832}, {'class_id': 41, 'class_name': 'cup', 'confidence': 0.8042441010475159}, {'class_id': 60, 'class_name': 'dining table', 'confidence': 0.7577887773513794}, {'class_id': 53, 'class_name': 'pizza', 'confidence': 0.6726288795471191}, {'class_id': 53, 'class_name': 'pizza', 'confidence': 0.6489716172218323}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6432059407234192}, {'class_id': 53, 'class_name': 'pizza', 'confidence': 0.6143433451652527}, {'class_id': 62, 'class_name': 'tv', 'confidence': 0.5240371823310852}, {'class_id': 53, 'class_name': 'pizza', 'confidence': 0.5129913687705994}, {'class_id': 43, 'class_name': 'knife', 'confidence': 0.5100942254066467}]",False
+bg_0187.jpg,normal,damaged,3,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8749005794525146}, {'class_id': 71, 'class_name': 'sink', 'confidence': 0.7111285328865051}, {'class_id': 71, 'class_name': 'sink', 'confidence': 0.580424964427948}]",False
+bg_0556.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.7325579524040222}, {'class_id': 16, 'class_name': 'dog', 'confidence': 0.6327250599861145}]",False
+bg_0201.jpg,normal,damaged,2,"[{'class_id': 35, 'class_name': 'baseball glove', 'confidence': 0.941412627696991}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8752909302711487}]",False
+bg_0216.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8080098032951355}]",False
+bg_0147.jpg,normal,damaged,1,"[{'class_id': 15, 'class_name': 'cat', 'confidence': 0.8654521703720093}]",False
+bg_0115.jpg,normal,damaged,11,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8653308153152466}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8347482681274414}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8286677598953247}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.821548581123352}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8126896023750305}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8103600144386292}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7952862977981567}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7860833406448364}, {'class_id': 30, 'class_name': 'skis', 'confidence': 0.7494794130325317}, {'class_id': 31, 'class_name': 'snowboard', 'confidence': 0.6411582231521606}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.542701005935669}]",False
+bg_0134.jpg,normal,damaged,5,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.783562183380127}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6553291082382202}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.636974573135376}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6341366171836853}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5831729769706726}]",False
+bg_0103.jpg,normal,damaged,11,"[{'class_id': 8, 'class_name': 'boat', 'confidence': 0.8840072154998779}, {'class_id': 25, 'class_name': 'umbrella', 'confidence': 0.6088607311248779}, {'class_id': 25, 'class_name': 'umbrella', 'confidence': 0.6021915674209595}, {'class_id': 25, 'class_name': 'umbrella', 'confidence': 0.600480318069458}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5990939736366272}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5953919291496277}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5739871859550476}, {'class_id': 25, 'class_name': 'umbrella', 'confidence': 0.5706367492675781}, {'class_id': 25, 'class_name': 'umbrella', 'confidence': 0.5453410148620605}, {'class_id': 25, 'class_name': 'umbrella', 'confidence': 0.5252063870429993}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.500928521156311}]",False
+bg_0568.jpg,normal,damaged,4,"[{'class_id': 53, 'class_name': 'pizza', 'confidence': 0.9330680966377258}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7942095398902893}, {'class_id': 56, 'class_name': 'chair', 'confidence': 0.7259623408317566}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6661131978034973}]",False
+bg_0160.jpg,normal,damaged,4,"[{'class_id': 17, 'class_name': 'horse', 'confidence': 0.896041989326477}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8195801973342896}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7769753336906433}, {'class_id': 17, 'class_name': 'horse', 'confidence': 0.7195041179656982}]",False
+bg_0321.jpg,normal,damaged,2,"[{'class_id': 48, 'class_name': 'sandwich', 'confidence': 0.7401599884033203}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7190150618553162}]",False
+bg_0118.jpg,normal,damaged,3,"[{'class_id': 15, 'class_name': 'cat', 'confidence': 0.7858348488807678}, {'class_id': 62, 'class_name': 'tv', 'confidence': 0.6378771066665649}, {'class_id': 67, 'class_name': 'cell phone', 'confidence': 0.5145396590232849}]",False
+bg_0547.jpg,normal,damaged,2,"[{'class_id': 8, 'class_name': 'boat', 'confidence': 0.802044689655304}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7703517079353333}]",False
+bg_0449.jpg,normal,damaged,2,"[{'class_id': 29, 'class_name': 'frisbee', 'confidence': 0.8868346810340881}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8833097219467163}]",False
+bg_0294.jpg,normal,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.5607295632362366}]",False
+bg_0097.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8585701584815979}, {'class_id': 37, 'class_name': 'surfboard', 'confidence': 0.8093302845954895}]",False
+bg_0083.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.6522615551948547}]",False
+bg_0498.jpg,normal,normal,0,[],True
+bg_0299.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9073333740234375}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.63214510679245}]",False
+bg_0469.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9133083820343018}, {'class_id': 33, 'class_name': 'kite', 'confidence': 0.9040510058403015}]",False
+bg_0139.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9247822165489197}, {'class_id': 37, 'class_name': 'surfboard', 'confidence': 0.8132637143135071}]",False
+bg_0058.jpg,normal,damaged,12,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8682972192764282}, {'class_id': 45, 'class_name': 'bowl', 'confidence': 0.8494870066642761}, {'class_id': 41, 'class_name': 'cup', 'confidence': 0.840054452419281}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8359795808792114}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7859517931938171}, {'class_id': 60, 'class_name': 'dining table', 'confidence': 0.7548932433128357}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.752543032169342}, {'class_id': 41, 'class_name': 'cup', 'confidence': 0.7009583711624146}, {'class_id': 40, 'class_name': 'wine glass', 'confidence': 0.6758753657341003}, {'class_id': 56, 'class_name': 'chair', 'confidence': 0.5999354124069214}, {'class_id': 41, 'class_name': 'cup', 'confidence': 0.542281985282898}, {'class_id': 39, 'class_name': 'bottle', 'confidence': 0.514612078666687}]",False
+bg_0525.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8803872466087341}]",False
+bg_0045.jpg,normal,damaged,6,"[{'class_id': 39, 'class_name': 'bottle', 'confidence': 0.9368249773979187}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.9034163355827332}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.884965717792511}, {'class_id': 57, 'class_name': 'couch', 'confidence': 0.8402155637741089}, {'class_id': 39, 'class_name': 'bottle', 'confidence': 0.6779876947402954}, {'class_id': 65, 'class_name': 'remote', 'confidence': 0.5009093284606934}]",False
+bg_0008.jpg,normal,damaged,2,"[{'class_id': 61, 'class_name': 'toilet', 'confidence': 0.9023500680923462}, {'class_id': 61, 'class_name': 'toilet', 'confidence': 0.5697689652442932}]",False
+bg_0465.jpg,normal,damaged,6,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.6557523608207703}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5934868454933167}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5896822214126587}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5768769979476929}, {'class_id': 74, 'class_name': 'clock', 'confidence': 0.5713198184967041}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5129836201667786}]",False
+bg_0504.jpg,normal,damaged,4,"[{'class_id': 40, 'class_name': 'wine glass', 'confidence': 0.849566638469696}, {'class_id': 60, 'class_name': 'dining table', 'confidence': 0.6851580739021301}, {'class_id': 40, 'class_name': 'wine glass', 'confidence': 0.5531482100486755}, {'class_id': 39, 'class_name': 'bottle', 'confidence': 0.5437324047088623}]",False
+bg_0357.jpg,normal,damaged,6,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8928844928741455}, {'class_id': 63, 'class_name': 'laptop', 'confidence': 0.8802212476730347}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6592978835105896}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6535686254501343}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5806295871734619}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5611997842788696}]",False
+bg_0175.jpg,normal,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.7573148012161255}]",False
+bg_0553.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8746787309646606}, {'class_id': 37, 'class_name': 'surfboard', 'confidence': 0.7506859302520752}]",False
+bg_0225.jpg,normal,normal,0,[],True
+bg_0223.jpg,normal,damaged,4,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9185177087783813}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.9111655354499817}, {'class_id': 34, 'class_name': 'baseball bat', 'confidence': 0.6187206506729126}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5740949511528015}]",False
+bg_0507.jpg,normal,damaged,5,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8806719183921814}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8748381733894348}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7672609090805054}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7517247200012207}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7165906429290771}]",False
+normal_0106.jpg,normal,damaged,3,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.7461206912994385}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6551548838615417}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.533891499042511}]",False
+normal_0082.jpg,normal,damaged,7,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8996601104736328}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.8437297940254211}, {'class_id': 9, 'class_name': 'traffic light', 'confidence': 0.8017210960388184}, {'class_id': 9, 'class_name': 'traffic light', 'confidence': 0.7853664755821228}, {'class_id': 9, 'class_name': 'traffic light', 'confidence': 0.7740170359611511}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7156522274017334}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.6482598185539246}]",False
+bg_0044.jpg,normal,damaged,1,"[{'class_id': 1, 'class_name': 'bicycle', 'confidence': 0.5302528738975525}]",False
+bg_0385.jpg,normal,damaged,7,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9114611148834229}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8929862380027771}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8887970447540283}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8753232955932617}, {'class_id': 27, 'class_name': 'tie', 'confidence': 0.8667176961898804}, {'class_id': 56, 'class_name': 'chair', 'confidence': 0.7755821943283081}, {'class_id': 40, 'class_name': 'wine glass', 'confidence': 0.5101130604743958}]",False
+bg_0378.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.6052984595298767}]",False
+normal_0067.jpg,normal,damaged,1,"[{'class_id': 15, 'class_name': 'cat', 'confidence': 0.7093971371650696}]",False
+bg_0288.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8649934530258179}, {'class_id': 37, 'class_name': 'surfboard', 'confidence': 0.6271442770957947}]",False
+bg_0563.jpg,normal,damaged,1,"[{'class_id': 15, 'class_name': 'cat', 'confidence': 0.7110266089439392}]",False
+0034390_as-0100039.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7831529378890991}]",True
+bg_0520.jpg,normal,damaged,1,"[{'class_id': 13, 'class_name': 'bench', 'confidence': 0.7738296985626221}]",False
+bg_0366.jpg,normal,damaged,3,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8980861902236938}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8354567885398865}, {'class_id': 29, 'class_name': 'frisbee', 'confidence': 0.6704195141792297}]",False
+0186863_sc-154851.jpg,damaged,normal,0,[],False
+bg_0565.jpg,normal,normal,0,[],True
+normal_0042.jpg,normal,damaged,1,"[{'class_id': 14, 'class_name': 'bird', 'confidence': 0.7702037692070007}]",False
+bg_0575.jpg,normal,damaged,2,"[{'class_id': 61, 'class_name': 'toilet', 'confidence': 0.9251198172569275}, {'class_id': 15, 'class_name': 'cat', 'confidence': 0.8778232336044312}]",False
+bg_0483.jpg,normal,damaged,6,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8848138451576233}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8574116826057434}, {'class_id': 45, 'class_name': 'bowl', 'confidence': 0.776110827922821}, {'class_id': 53, 'class_name': 'pizza', 'confidence': 0.7657780051231384}, {'class_id': 74, 'class_name': 'clock', 'confidence': 0.686086893081665}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6348605155944824}]",False
+normal_0000.jpg,normal,normal,0,[],True
+bg_0327.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8736409544944763}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7478216886520386}]",False
+normal_0050.jpg,normal,damaged,4,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8308130502700806}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7987662553787231}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7859669327735901}, {'class_id': 9, 'class_name': 'traffic light', 'confidence': 0.5427290797233582}]",False
+bg_0161.jpg,normal,damaged,11,"[{'class_id': 56, 'class_name': 'chair', 'confidence': 0.9241364002227783}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.9086394906044006}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8994317650794983}, {'class_id': 56, 'class_name': 'chair', 'confidence': 0.8937079906463623}, {'class_id': 56, 'class_name': 'chair', 'confidence': 0.8611297607421875}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8580934405326843}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8413482308387756}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7081326246261597}, {'class_id': 56, 'class_name': 'chair', 'confidence': 0.6820391416549683}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6598055362701416}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6290289759635925}]",False
+normal_0041.jpg,normal,damaged,9,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9201760292053223}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8640780448913574}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7028454542160034}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.635931134223938}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.6224015355110168}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6187055110931396}, {'class_id': 27, 'class_name': 'tie', 'confidence': 0.61064213514328}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5703604221343994}, {'class_id': 9, 'class_name': 'traffic light', 'confidence': 0.5263447165489197}]",False
+normal_0092.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8701025247573853}, {'class_id': 7, 'class_name': 'truck', 'confidence': 0.7385658025741577}]",False
+0285172_sc-180800.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5846799612045288}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.5303648114204407}]",True
+bg_0228.jpg,normal,damaged,13,"[{'class_id': 63, 'class_name': 'laptop', 'confidence': 0.855802059173584}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8322036862373352}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7621982097625732}, {'class_id': 41, 'class_name': 'cup', 'confidence': 0.7435084581375122}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7368276119232178}, {'class_id': 63, 'class_name': 'laptop', 'confidence': 0.6551522612571716}, {'class_id': 63, 'class_name': 'laptop', 'confidence': 0.6534125208854675}, {'class_id': 63, 'class_name': 'laptop', 'confidence': 0.6499584317207336}, {'class_id': 63, 'class_name': 'laptop', 'confidence': 0.6046795845031738}, {'class_id': 41, 'class_name': 'cup', 'confidence': 0.5829534530639648}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5766862034797668}, {'class_id': 66, 'class_name': 'keyboard', 'confidence': 0.5131471753120422}, {'class_id': 41, 'class_name': 'cup', 'confidence': 0.5017263889312744}]",False
+normal_0053.jpg,normal,damaged,4,"[{'class_id': 10, 'class_name': 'fire hydrant', 'confidence': 0.9022323489189148}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.8114368319511414}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.6462936401367188}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.501924991607666}]",False
+bg_0265.jpg,normal,damaged,3,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9249774217605591}, {'class_id': 31, 'class_name': 'snowboard', 'confidence': 0.8800624012947083}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6757193803787231}]",False
+bg_0353.jpg,normal,damaged,9,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8660756945610046}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8639258742332458}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7527819871902466}, {'class_id': 4, 'class_name': 'airplane', 'confidence': 0.7388365864753723}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6720557808876038}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6349778771400452}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6298896670341492}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5877832174301147}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5596742630004883}]",False
+bg_0239.jpg,normal,damaged,4,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8950645923614502}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8787671327590942}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6819158792495728}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6102691888809204}]",False
+0112451_sc-113504.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8634113073348999}]",True
+bg_0371.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.6556707620620728}]",False
+bg_0510.jpg,normal,damaged,3,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9109165668487549}, {'class_id': 38, 'class_name': 'tennis racket', 'confidence': 0.8849198222160339}, {'class_id': 32, 'class_name': 'sports ball', 'confidence': 0.7149157524108887}]",False
+bg_0573.jpg,normal,damaged,9,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9210428595542908}, {'class_id': 32, 'class_name': 'sports ball', 'confidence': 0.9088514447212219}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8408611416816711}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8111667037010193}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7357370853424072}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7250286936759949}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5354821681976318}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5238792300224304}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5056654214859009}]",False
+bg_0352.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9006146788597107}, {'class_id': 27, 'class_name': 'tie', 'confidence': 0.8842489719390869}]",False
+bg_0484.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8869234323501587}]",False
+bg_0048.jpg,normal,damaged,5,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8953182101249695}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8814188838005066}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8798449635505676}, {'class_id': 57, 'class_name': 'couch', 'confidence': 0.8750409483909607}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.710185170173645}]",False
+normal_0037.jpg,normal,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.9313613772392273}]",False
+normal_0142.jpg,normal,damaged,3,"[{'class_id': 5, 'class_name': 'bus', 'confidence': 0.8892496228218079}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.8305169343948364}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.735580563545227}]",False
+normal_0110.jpg,normal,damaged,4,"[{'class_id': 5, 'class_name': 'bus', 'confidence': 0.8669261336326599}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8391801118850708}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8148998022079468}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5712766647338867}]",False
+bg_0309.jpg,normal,damaged,1,"[{'class_id': 77, 'class_name': 'teddy bear', 'confidence': 0.6407276391983032}]",False
+normal_0064.jpg,normal,damaged,6,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.9274767637252808}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.9256542325019836}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.8861578702926636}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7643848061561584}, {'class_id': 74, 'class_name': 'clock', 'confidence': 0.7457048296928406}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.534105658531189}]",False
+normal_0077.jpg,normal,damaged,5,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.902391791343689}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.8778335452079773}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7804387211799622}, {'class_id': 9, 'class_name': 'traffic light', 'confidence': 0.708701491355896}, {'class_id': 9, 'class_name': 'traffic light', 'confidence': 0.5388884544372559}]",False
+bg_0057.jpg,normal,damaged,3,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.6802871823310852}, {'class_id': 52, 'class_name': 'hot dog', 'confidence': 0.655867874622345}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5908985137939453}]",False
+normal_0004.jpg,normal,damaged,3,"[{'class_id': 7, 'class_name': 'truck', 'confidence': 0.8302584290504456}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.769910991191864}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.6132048964500427}]",False
+bg_0170.jpg,normal,damaged,3,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9244014024734497}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8635278940200806}, {'class_id': 25, 'class_name': 'umbrella', 'confidence': 0.614555299282074}]",False
+normal_0101.jpg,normal,damaged,7,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9296123385429382}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.9095363020896912}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7178384065628052}, {'class_id': 35, 'class_name': 'baseball glove', 'confidence': 0.6981812119483948}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6824129819869995}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6688455939292908}, {'class_id': 32, 'class_name': 'sports ball', 'confidence': 0.5085028409957886}]",False
+bg_0107.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8315059542655945}]",False
+bg_0181.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.7079181671142578}]",False
+normal_0039.jpg,normal,damaged,3,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.9025140404701233}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8953333497047424}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.6492120623588562}]",False
+bg_0447.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8063309788703918}, {'class_id': 43, 'class_name': 'knife', 'confidence': 0.5416674017906189}]",False
+bg_0234.jpg,normal,damaged,4,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9142975807189941}, {'class_id': 38, 'class_name': 'tennis racket', 'confidence': 0.7807092070579529}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6913421154022217}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5829207301139832}]",False
+bg_0302.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8644275665283203}, {'class_id': 38, 'class_name': 'tennis racket', 'confidence': 0.7839760184288025}]",False
+bg_0495.jpg,normal,damaged,1,"[{'class_id': 6, 'class_name': 'train', 'confidence': 0.906108558177948}]",False
+normal_0147.jpg,normal,damaged,12,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8921084403991699}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.8457136750221252}, {'class_id': 5, 'class_name': 'bus', 'confidence': 0.8247194886207581}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.8163815140724182}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.8155691027641296}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7834377288818359}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7678499817848206}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7409533858299255}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7179056406021118}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7027942538261414}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6710964441299438}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.501274824142456}]",False
+bg_0285.jpg,normal,damaged,2,"[{'class_id': 37, 'class_name': 'surfboard', 'confidence': 0.693585216999054}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5650789141654968}]",False
+normal_0132.jpg,normal,damaged,3,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9022524356842041}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7058517932891846}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.6547266244888306}]",False
+normal_0075.jpg,normal,damaged,9,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7860617637634277}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7623899579048157}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7460522651672363}, {'class_id': 3, 'class_name': 'motorcycle', 'confidence': 0.7368305921554565}, {'class_id': 5, 'class_name': 'bus', 'confidence': 0.6927138566970825}, {'class_id': 3, 'class_name': 'motorcycle', 'confidence': 0.6762375235557556}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6393586993217468}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5926949381828308}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5287265181541443}]",False
+bg_0461.jpg,normal,damaged,3,"[{'class_id': 41, 'class_name': 'cup', 'confidence': 0.6066746115684509}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5953077077865601}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5178711414337158}]",False
+bg_0164.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9364194869995117}, {'class_id': 30, 'class_name': 'skis', 'confidence': 0.6866151690483093}]",False
+bg_0156.jpg,normal,damaged,4,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8358734846115112}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7080117464065552}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5805870890617371}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5293338298797607}]",False
+bg_0287.jpg,normal,damaged,4,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8710591793060303}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8343741297721863}, {'class_id': 38, 'class_name': 'tennis racket', 'confidence': 0.723904550075531}, {'class_id': 29, 'class_name': 'frisbee', 'confidence': 0.6860751509666443}]",False
+bg_0172.jpg,normal,damaged,3,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9329595565795898}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7241151332855225}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5512712001800537}]",False
+normal_0027.jpg,normal,damaged,6,"[{'class_id': 16, 'class_name': 'dog', 'confidence': 0.9243940711021423}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8598735928535461}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.798618733882904}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7892179489135742}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7332075238227844}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.616269052028656}]",False
+bg_0140.jpg,normal,damaged,2,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9276149272918701}, {'class_id': 36, 'class_name': 'skateboard', 'confidence': 0.8771653175354004}]",False
+normal_0084.jpg,normal,damaged,4,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9006723165512085}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.888031005859375}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5918005108833313}, {'class_id': 32, 'class_name': 'sports ball', 'confidence': 0.5369178652763367}]",False
+normal_0043.jpg,normal,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8747950792312622}]",False
+normal_0148.jpg,normal,damaged,6,"[{'class_id': 40, 'class_name': 'wine glass', 'confidence': 0.9070603251457214}, {'class_id': 42, 'class_name': 'fork', 'confidence': 0.8014720678329468}, {'class_id': 40, 'class_name': 'wine glass', 'confidence': 0.7514380216598511}, {'class_id': 60, 'class_name': 'dining table', 'confidence': 0.6871813535690308}, {'class_id': 55, 'class_name': 'cake', 'confidence': 0.5724363923072815}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5517734885215759}]",False
+bg_0475.jpg,normal,damaged,2,"[{'class_id': 16, 'class_name': 'dog', 'confidence': 0.8303493857383728}, {'class_id': 32, 'class_name': 'sports ball', 'confidence': 0.6023972034454346}]",False
+bg_0431.jpg,normal,damaged,2,"[{'class_id': 10, 'class_name': 'fire hydrant', 'confidence': 0.9043879508972168}, {'class_id': 16, 'class_name': 'dog', 'confidence': 0.5600865483283997}]",False
+normal_0051.jpg,normal,damaged,6,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.9244966506958008}, {'class_id': 9, 'class_name': 'traffic light', 'confidence': 0.8733314275741577}, {'class_id': 9, 'class_name': 'traffic light', 'confidence': 0.7953664064407349}, {'class_id': 9, 'class_name': 'traffic light', 'confidence': 0.701277494430542}, {'class_id': 9, 'class_name': 'traffic light', 'confidence': 0.6926738619804382}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.6095952391624451}]",False
+0105230_sc-183329.jpg,damaged,normal,0,[],False
+bg_0224.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.870410680770874}]",False
+0427728_sc-150039.jpg,damaged,normal,0,[],False
+bg_0157.jpg,normal,damaged,5,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8868856430053711}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8818012475967407}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.6070315837860107}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5562504529953003}, {'class_id': 67, 'class_name': 'cell phone', 'confidence': 0.5027084350585938}]",False
+bg_0432.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8638796210289001}]",False
+bg_0067.jpg,normal,damaged,4,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8933852910995483}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8372214436531067}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7064026594161987}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5748167037963867}]",False
+normal_0152.jpg,normal,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.9225990176200867}]",False
+bg_0301.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9218056201934814}]",False
+normal_0143.jpg,normal,damaged,3,"[{'class_id': 10, 'class_name': 'fire hydrant', 'confidence': 0.8891125321388245}, {'class_id': 7, 'class_name': 'truck', 'confidence': 0.8094775676727295}, {'class_id': 7, 'class_name': 'truck', 'confidence': 0.6616265773773193}]",False
+normal_0054.jpg,normal,damaged,4,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8826920390129089}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.8521456718444824}, {'class_id': 5, 'class_name': 'bus', 'confidence': 0.6118366122245789}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.5701910853385925}]",False
+normal_0096.jpg,normal,damaged,6,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8664216995239258}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.8558529019355774}, {'class_id': 7, 'class_name': 'truck', 'confidence': 0.748355507850647}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.730220377445221}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.6475973129272461}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5603312253952026}]",False
+normal_0103.jpg,normal,damaged,4,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8624544739723206}, {'class_id': 10, 'class_name': 'fire hydrant', 'confidence': 0.8620766997337341}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.8494966626167297}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7395352125167847}]",False
+0268550_as-0097762.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5868292450904846}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.5490692853927612}]",True
+bg_0142.jpg,normal,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8441746234893799}]",False
+bg_0165.jpg,normal,damaged,6,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9207022786140442}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8887932300567627}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8788297772407532}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8627166152000427}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7618678212165833}, {'class_id': 32, 'class_name': 'sports ball', 'confidence': 0.7391113638877869}]",False
+bg_0580.jpg,normal,damaged,3,"[{'class_id': 38, 'class_name': 'tennis racket', 'confidence': 0.8549081087112427}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8330575823783875}, {'class_id': 56, 'class_name': 'chair', 'confidence': 0.5046979188919067}]",False
+bg_0459.jpg,normal,damaged,3,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8917832374572754}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8890560269355774}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8858982920646667}]",False
+normal_0128.jpg,normal,damaged,6,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.8998702764511108}, {'class_id': 25, 'class_name': 'umbrella', 'confidence': 0.890312135219574}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8026228547096252}, {'class_id': 25, 'class_name': 'umbrella', 'confidence': 0.7775717973709106}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7497931718826294}, {'class_id': 47, 'class_name': 'apple', 'confidence': 0.7166125178337097}]",False
+bg_0521.jpg,normal,damaged,4,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.9259046316146851}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.8155139684677124}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7858264446258545}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.5337069630622864}]",False
+0266796_sc-168055.jpg,damaged,normal,0,[],False
+bg_0207.jpg,normal,normal,0,[],True
+normal_0115.jpg,normal,damaged,2,"[{'class_id': 12, 'class_name': 'parking meter', 'confidence': 0.9088621735572815}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.6764936447143555}]",False
+bg_0502.jpg,normal,damaged,2,"[{'class_id': 46, 'class_name': 'banana', 'confidence': 0.8213344216346741}, {'class_id': 0, 'class_name': 'person', 'confidence': 0.7793319225311279}]",False
+0244984_sc-177462.jpg,damaged,normal,0,[],False
+0484341_sc-137775.jpg,damaged,normal,0,[],False
+0264066_as-0099689.jpg,damaged,normal,0,[],False
+0263517_as-0097896.jpg,damaged,normal,0,[],False
+0082415_sc-161209.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7218477725982666}]",True
+0216307_as-9099038.jpg,damaged,normal,0,[],False
+0449922_sc-213137.jpg,damaged,normal,0,[],False
+0413509_as-2547434.jpg,damaged,normal,0,[],False
+0250391_sc-221583.jpg,damaged,normal,0,[],False
+0167131_sc-135503.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.819579541683197}]",True
+0100144_sc-181174.jpg,damaged,normal,0,[],False
+0283348_sc-192159.jpg,damaged,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.652930498123169}]",True
+0153997_as-2724226.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5786316394805908}]",True
+0009983_sc-121870.jpg,damaged,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.5042279958724976}]",True
+0127227_as-0094499.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8094834089279175}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7315963506698608}]",True
+0490798_sc-152351.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6254130601882935}]",True
+0398608_sc-139776.jpg,damaged,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.5187644958496094}]",True
+0270658_sc-137794.jpg,damaged,normal,0,[],False
+0276494_as-0100133.jpg,damaged,normal,0,[],False
+0007211_sc-172188.jpg,damaged,normal,0,[],False
+0348130_sc-229405.jpg,damaged,normal,0,[],False
+0045704_as-3259707.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5388898849487305}]",True
+0453199_as-2873410.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6521622538566589}]",True
+0489884_as-3044828.jpg,damaged,normal,0,[],False
+0447353_as-7029542.jpg,damaged,normal,0,[],False
+0125824_sc-136764.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6615633964538574}]",True
+0004566_sc-195121.jpg,damaged,normal,0,[],False
+0270657_sc-137794.jpg,damaged,normal,0,[],False
+0035392_sc-129581.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7707988619804382}]",True
+0116123_sc-171689.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7976824641227722}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7278133630752563}]",True
+0057578_as-0098080.jpg,damaged,normal,0,[],False
+0435390_sc-159499.jpg,damaged,normal,0,[],False
+0163386_sc-124959.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.718627393245697}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.5027479529380798}]",True
+0394017_as-2761544.jpg,damaged,normal,0,[],False
+0203933_as-3377655.jpg,damaged,normal,0,[],False
+0102122_as-2544895.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6845991015434265}]",True
+0163828_sc-212354.jpg,damaged,normal,0,[],False
+0151937_sc-108419.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5160536766052246}]",True
+0297718_as-0098204.jpg,damaged,damaged,3,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7681252956390381}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.6756573915481567}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.5446339845657349}]",True
+0449686_as-9073870.jpg,damaged,normal,0,[],False
+0271142_as-7148895.jpg,damaged,normal,0,[],False
+0128413_sc-1039751.jpg,damaged,normal,0,[],False
+0157833_as-3454560.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6521981358528137}]",True
+0200281_as-2877789.jpg,damaged,normal,0,[],False
+0235560_sc-217925.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6483591198921204}]",True
+0422101_as-0100120.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7633916139602661}]",True
+0118689_sc-1023870.jpg,damaged,normal,0,[],False
+0434299_sc-125105.jpg,damaged,normal,0,[],False
+0356949_as-2518439.jpg,damaged,normal,0,[],False
+0083019_sc-146509.jpg,damaged,normal,0,[],False
+0488255_as-2688657.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6163309216499329}]",True
+0453003_as-3115203.jpg,damaged,normal,0,[],False
+0376413_sc-152469.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.76595139503479}]",True
+0466335_sc-140202.jpg,damaged,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.7770941257476807}]",True
+0061451_sc-142433.jpg,damaged,damaged,1,"[{'class_id': 66, 'class_name': 'keyboard', 'confidence': 0.6641632914543152}]",True
+0250112_as-0098728.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8460140228271484}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7364957332611084}]",True
+0209821_as-2816800.jpg,damaged,normal,0,[],False
+0161760_sc-143835.jpg,damaged,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.5454164743423462}]",True
+0267782_sc-162261.jpg,damaged,normal,0,[],False
+0323434_sc-148665.jpg,damaged,normal,0,[],False
+0407057_as-9023700.jpg,damaged,normal,0,[],False
+0034157_sc-207940.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7711789011955261}]",True
+0079744_sc-219043.jpg,damaged,normal,0,[],False
+0057279_sc-199603.jpg,damaged,damaged,1,"[{'class_id': 5, 'class_name': 'bus', 'confidence': 0.6613534688949585}]",True
+0111961_sc-169881.jpg,damaged,normal,0,[],False
+0395450_sc-215188.jpg,damaged,normal,0,[],False
+0012009_as-9052974.jpg,damaged,normal,0,[],False
+0355009_sc-164290.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7393722534179688}]",True
+0357378_as-2876849.jpg,damaged,normal,0,[],False
+0278250_sc-200452.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8102219700813293}]",True
+0100019_sc-176911.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7343798279762268}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.623053252696991}]",True
+0120139_sc-194608.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7770228981971741}]",True
+0002010_as-0097507.jpg,damaged,normal,0,[],False
+0002011_as-0097507.jpg,damaged,normal,0,[],False
+0490221_sc-164146.jpg,damaged,normal,0,[],False
+0071748_sc-114926.jpg,damaged,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.769330620765686}]",True
+0175392_as-0098501.jpg,damaged,damaged,4,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8629782199859619}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.8493261337280273}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7730183601379395}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.6194272041320801}]",True
+0376375_sc-166079.jpg,damaged,normal,0,[],False
+0503229_sc-190861.jpg,damaged,normal,0,[],False
+0365107_sc-117859.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6247153282165527}]",True
+0215331_sc-159546.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8657164573669434}]",True
+0316349_sc-128467.jpg,damaged,normal,0,[],False
+0499333_as-2768692.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5513668656349182}]",True
+0357048_as-2517003.jpg,damaged,normal,0,[],False
+0492301_sc-184423.jpg,damaged,damaged,1,"[{'class_id': 67, 'class_name': 'cell phone', 'confidence': 0.7555385231971741}]",True
+0146454_as-0097744.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5589092373847961}]",True
+0175129_as-3477894.jpg,damaged,normal,0,[],False
+0416603_sc-142751.jpg,damaged,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.6185821890830994}]",True
+0413686_sc-170052.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8897204995155334}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7759425640106201}]",True
+0315331_as-3206512.jpg,damaged,normal,0,[],False
+0370380_sc-148388.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7939022779464722}]",True
+0454228_sc-197327.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7996165752410889}]",True
+0485896_sc-113408.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6836672425270081}]",True
+0386212_as-2801540.jpg,damaged,normal,0,[],False
+0464106_as-3031666.jpg,damaged,normal,0,[],False
+0184326_as-7795375.jpg,damaged,normal,0,[],False
+0504565_sc-213981.jpg,damaged,damaged,1,"[{'class_id': 6, 'class_name': 'train', 'confidence': 0.5655499696731567}]",True
+0306413_sc-155464.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5253074765205383}]",True
+0165383_sc-181934.jpg,damaged,normal,0,[],False
+0065339_as-2724041.jpg,damaged,damaged,1,"[{'class_id': 6, 'class_name': 'train', 'confidence': 0.7076594829559326}]",True
+0243821_sc-210697.jpg,damaged,normal,0,[],False
+0467036_sc-225750.jpg,damaged,normal,0,[],False
+0339092_sc-149389.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5437920689582825}]",True
+0182480_sc-111865.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5499101877212524}]",True
+0019385_as-3083261.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5586886405944824}]",True
+0492092_as-0099411.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5590053796768188}]",True
+0027852_sc-214481.jpg,damaged,normal,0,[],False
+0099823_as-7336887.jpg,damaged,normal,0,[],False
+0362513_sc-191078.jpg,damaged,damaged,3,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8925909399986267}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.8457028865814209}, {'class_id': 4, 'class_name': 'airplane', 'confidence': 0.6526490449905396}]",True
+0192218_sc-126494.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.536329984664917}]",True
+0006637_as-0099425.jpg,damaged,normal,0,[],False
+0014330_as-3200305.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6944845914840698}]",True
+0309538_as-0098460.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8885746598243713}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7041285634040833}]",True
+0065021_sc-200578.jpg,damaged,normal,0,[],False
+0105868_sc-227017.jpg,damaged,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.8076016306877136}]",True
+0305353_sc-157275.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7607042789459229}]",True
+0037819_as-0098380.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8394165635108948}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7064810395240784}]",True
+0350658_sc-221485.jpg,damaged,normal,0,[],False
+0262474_as-7098861.jpg,damaged,normal,0,[],False
+0207587_sc-175888.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.612214982509613}]",True
+0212314_as-3450644.jpg,damaged,normal,0,[],False
+0188073_as-3120932.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7197862267494202}]",True
+0415750_sc-208136.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7052707076072693}]",True
+0292443_as-7909095.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.771224856376648}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.5885217785835266}]",True
+0432306_as-3290465.jpg,damaged,normal,0,[],False
+0442642_sc-225918.jpg,damaged,normal,0,[],False
+0361268_sc-164037.jpg,damaged,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.5150222778320312}]",True
+0357663_sc-157033.jpg,damaged,normal,0,[],False
+0504651_as-0094247.jpg,damaged,normal,0,[],False
+0288282_sc-154889.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8742251396179199}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.785406231880188}]",True
+0460904_sc-192604.jpg,damaged,damaged,1,"[{'class_id': 6, 'class_name': 'train', 'confidence': 0.597732663154602}]",True
+0129387_as-7315279.jpg,damaged,normal,0,[],False
+0147198_sc-127164.jpg,damaged,normal,0,[],False
+0192723_sc-177196.jpg,damaged,normal,0,[],False
+0048891_as-3250312.jpg,damaged,normal,0,[],False
+0203333_sc-126448.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7898697853088379}]",True
+0202811_sc-213386.jpg,damaged,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.6713651418685913}]",True
+0063055_sc-207034.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7002335786819458}]",True
+0050009_sc-226443.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.816317081451416}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.6335364580154419}]",True
+0004870_as-0098014.jpg,damaged,normal,0,[],False
+0049372_as-0098423.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7668922543525696}]",True
+0267781_sc-162261.jpg,damaged,normal,0,[],False
+0338342_as-0098841.jpg,damaged,normal,0,[],False
+0254079_sc-208135.jpg,damaged,normal,0,[],False
+0351579_as-3487309.jpg,damaged,normal,0,[],False
+0260237_sc-152491.jpg,damaged,normal,0,[],False
+0335487_as-3459662.jpg,damaged,normal,0,[],False
+0205923_as-0098420.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.778003990650177}]",True
+0384923_as-0008960.jpg,damaged,normal,0,[],False
+0286430_as-3158367.jpg,damaged,normal,0,[],False
+0024711_as-9062848.jpg,damaged,normal,0,[],False
+0450117_sc-180064.jpg,damaged,normal,0,[],False
+0326225_as-0094663.jpg,damaged,normal,0,[],False
+0068036_sc-156387.jpg,damaged,normal,0,[],False
+0433879_as-0100096.jpg,damaged,normal,0,[],False
+0327762_sc-198391.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.671596348285675}]",True
+0271961_sc-122618.jpg,damaged,normal,0,[],False
+0334252_sc-181056.jpg,damaged,damaged,1,"[{'class_id': 43, 'class_name': 'knife', 'confidence': 0.5114389657974243}]",True
+0161509_sc-207821.jpg,damaged,normal,0,[],False
+0017229_sc-192947.jpg,damaged,normal,0,[],False
+0411541_as-0094462.jpg,damaged,normal,0,[],False
+0484874_sc-177755.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6549992561340332}]",True
+0055710_sc-154210.jpg,damaged,normal,0,[],False
+0344418_as-7918579.jpg,damaged,normal,0,[],False
+0171003_sc-204525.jpg,damaged,normal,0,[],False
+0249045_sc-164683.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7154303789138794}]",True
+0420943_as-7953812.jpg,damaged,normal,0,[],False
+0156967_sc-196023.jpg,damaged,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.6203867197036743}]",True
+0177445_as-0099433.jpg,damaged,damaged,5,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8413427472114563}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7302679419517517}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.721642255783081}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7006624341011047}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.5035557150840759}]",True
+0176963_sc-165336.jpg,damaged,normal,0,[],False
+0302623_as-2793060.jpg,damaged,normal,0,[],False
+0453764_sc-130814.jpg,damaged,normal,0,[],False
+0184976_sc-155548.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5221288800239563}]",True
+0292431_as-7044586.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5877599120140076}]",True
+0102627_sc-204032.jpg,damaged,normal,0,[],False
+0148526_sc-127733.jpg,damaged,normal,0,[],False
+0429310_sc-212291.jpg,damaged,damaged,1,"[{'class_id': 45, 'class_name': 'bowl', 'confidence': 0.5210103988647461}]",True
+0238477_sc-227181.jpg,damaged,normal,0,[],False
+0418963_as-2938652.jpg,damaged,normal,0,[],False
+0334424_as-0097062.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6098523139953613}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.5740373134613037}]",True
+0323026_as-2519162.jpg,damaged,normal,0,[],False
+0249040_sc-211483.jpg,damaged,normal,0,[],False
+0472591_sc-161668.jpg,damaged,damaged,1,"[{'class_id': 7, 'class_name': 'truck', 'confidence': 0.5584163665771484}]",True
+0477078_sc-158651.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6534625887870789}]",True
+0059526_sc-174515.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.722331166267395}, {'class_id': 7, 'class_name': 'truck', 'confidence': 0.6211404204368591}]",True
+0149175_sc-177730.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6076020002365112}]",True
+0100258_as-0098416.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5032784342765808}]",True
+0011570_as-7872658.jpg,damaged,normal,0,[],False
+0297484_sc-159059.jpg,damaged,normal,0,[],False
+0167793_sc-163339.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7020788788795471}]",True
+0354001_sc-203504.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7329322695732117}]",True
+0361245_sc-200520.jpg,damaged,normal,0,[],False
+0433020_sc-164047.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6128356456756592}]",True
+0298929_as-0100037.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.9228739738464355}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.8830267786979675}]",True
+0426981_sc-129141.jpg,damaged,normal,0,[],False
+0279168_as-3244088.jpg,damaged,normal,0,[],False
+0256992_sc-156167.jpg,damaged,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.5453883409500122}]",True
+0455603_sc-128227.jpg,damaged,normal,0,[],False
+0413787_sc-164874.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8202926516532898}]",True
+0321423_sc-189759.jpg,damaged,normal,0,[],False
+0136184_sc-138052.jpg,damaged,normal,0,[],False
+0384404_sc-160748.jpg,damaged,normal,0,[],False
+0139902_sc-210862.jpg,damaged,normal,0,[],False
+0092637_as-7428864.jpg,damaged,normal,0,[],False
+0068041_sc-230154.jpg,damaged,normal,0,[],False
+0484948_sc-132079.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6031413674354553}]",True
+0374277_sc-227232.jpg,damaged,normal,0,[],False
+0356544_sc-210777.jpg,damaged,damaged,1,"[{'class_id': 13, 'class_name': 'bench', 'confidence': 0.5465922951698303}]",True
+0164753_as-2648487.jpg,damaged,damaged,1,"[{'class_id': 25, 'class_name': 'umbrella', 'confidence': 0.8110010623931885}]",True
+0398609_sc-139776.jpg,damaged,normal,0,[],False
+0506224_as-3233185.jpg,damaged,normal,0,[],False
+0495353_as-7076456.jpg,damaged,normal,0,[],False
+0105143_as-7625324.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6131069660186768}, {'class_id': 7, 'class_name': 'truck', 'confidence': 0.5428057312965393}]",True
+0018551_sc-227131.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5536217093467712}]",True
+0498700_as-0098334.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.5217317342758179}]",True
+0481854_as-3363477.jpg,damaged,damaged,1,"[{'class_id': 0, 'class_name': 'person', 'confidence': 0.5600506067276001}]",True
+0225521_as-0094687.jpg,damaged,normal,0,[],False
+0501956_as-2834835.jpg,damaged,normal,0,[],False
+0204027_as-0094427.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.7224006056785583}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.5561267137527466}]",True
+0210760_sc-206304.jpg,damaged,damaged,3,"[{'class_id': 7, 'class_name': 'truck', 'confidence': 0.7676542401313782}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7279552221298218}, {'class_id': 12, 'class_name': 'parking meter', 'confidence': 0.5188028216362}]",True
+0085529_sc-109377.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6673024892807007}]",True
+0032627_as-7542464.jpg,damaged,normal,0,[],False
+0029007_as-9004720.jpg,damaged,normal,0,[],False
+0482995_as-7193575.jpg,damaged,normal,0,[],False
+0389832_as-9035205.jpg,damaged,normal,0,[],False
+0469825_as-0097522.jpg,damaged,normal,0,[],False
+0191776_sc-171831.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6960079669952393}]",True
+0149447_sc-161531.jpg,damaged,damaged,1,"[{'class_id': 4, 'class_name': 'airplane', 'confidence': 0.6565881967544556}]",True
+0174272_sc-201859.jpg,damaged,normal,0,[],False
+0375939_as-2773451.jpg,damaged,damaged,1,"[{'class_id': 12, 'class_name': 'parking meter', 'confidence': 0.5003349781036377}]",True
+0138791_sc-176480.jpg,damaged,damaged,1,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.6807679533958435}]",True
+0431234_sc-131042.jpg,damaged,damaged,2,"[{'class_id': 2, 'class_name': 'car', 'confidence': 0.8733831644058228}, {'class_id': 2, 'class_name': 'car', 'confidence': 0.7208488583564758}]",True

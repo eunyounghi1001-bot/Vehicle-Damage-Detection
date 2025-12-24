@@ -1,0 +1,393 @@
+﻿image,gt,pred,detection_count,confidence_scores,correct,result_type
+0376413_sc-152469.jpg,damaged,normal,0,[],False,FN
+0316349_sc-128467.jpg,damaged,normal,0,[],False,FN
+0136184_sc-138052.jpg,damaged,normal,0,[],False,FN
+bg_0044.jpg,normal,normal,0,[],True,TN
+0485896_sc-113408.jpg,damaged,damaged,2,"[0.5848666429519653, 0.5146682262420654]",True,TP
+0057279_sc-199603.jpg,damaged,normal,0,[],False,FN
+0350658_sc-221485.jpg,damaged,normal,0,[],False,FN
+0267781_sc-162261.jpg,damaged,normal,0,[],False,FN
+bg_0103.jpg,normal,normal,0,[],True,TN
+0125824_sc-136764.jpg,damaged,damaged,2,"[0.7122575640678406, 0.5062236189842224]",True,TP
+0050009_sc-226443.jpg,damaged,normal,0,[],False,FN
+0216307_as-9099038.jpg,damaged,damaged,1,[0.8099680542945862],True,TP
+0413787_sc-164874.jpg,damaged,normal,0,[],False,FN
+bg_0045.jpg,normal,normal,0,[],True,TN
+0492301_sc-184423.jpg,damaged,normal,0,[],False,FN
+0100144_sc-181174.jpg,damaged,normal,0,[],False,FN
+0018551_sc-227131.jpg,damaged,normal,0,[],False,FN
+0149175_sc-177730.jpg,damaged,damaged,1,[0.5759485960006714],True,TP
+bg_0288.jpg,normal,normal,0,[],True,TN
+0182480_sc-111865.jpg,damaged,damaged,1,[0.5405418276786804],True,TP
+normal_0115.jpg,normal,normal,0,[],True,TN
+normal_0110.jpg,normal,normal,0,[],True,TN
+bg_0565.jpg,normal,normal,0,[],True,TN
+0426981_sc-129141.jpg,damaged,damaged,1,[0.7558873295783997],True,TP
+0326225_as-0094663.jpg,damaged,normal,0,[],False,FN
+0105143_as-7625324.jpg,damaged,damaged,2,"[0.9651837348937988, 0.9475392699241638]",True,TP
+bg_0287.jpg,normal,normal,0,[],True,TN
+0334252_sc-181056.jpg,damaged,normal,0,[],False,FN
+bg_0525.jpg,normal,normal,0,[],True,TN
+bg_0067.jpg,normal,normal,0,[],True,TN
+0482995_as-7193575.jpg,damaged,damaged,1,[0.8910927176475525],True,TP
+bg_0097.jpg,normal,normal,0,[],True,TN
+0100258_as-0098416.jpg,damaged,normal,0,[],False,FN
+0165383_sc-181934.jpg,damaged,normal,0,[],False,FN
+bg_0484.jpg,normal,normal,0,[],True,TN
+0035392_sc-129581.jpg,damaged,normal,0,[],False,FN
+0266796_sc-168055.jpg,damaged,normal,0,[],False,FN
+0415750_sc-208136.jpg,damaged,normal,0,[],False,FN
+0447353_as-7029542.jpg,damaged,damaged,1,[0.8915293216705322],True,TP
+bg_0039.jpg,normal,normal,0,[],True,TN
+0504651_as-0094247.jpg,damaged,damaged,2,"[0.7078421115875244, 0.5050823092460632]",True,TP
+0161509_sc-207821.jpg,damaged,normal,0,[],False,FN
+0100019_sc-176911.jpg,damaged,normal,0,[],False,FN
+0188073_as-3120932.jpg,damaged,damaged,3,"[0.6979255080223083, 0.601539134979248, 0.507698655128479]",True,TP
+bg_0299.jpg,normal,normal,0,[],True,TN
+0127227_as-0094499.jpg,damaged,normal,0,[],False,FN
+0256992_sc-156167.jpg,damaged,normal,0,[],False,FN
+bg_0598.jpg,normal,normal,0,[],True,TN
+0309538_as-0098460.jpg,damaged,normal,0,[],False,FN
+normal_0050.jpg,normal,normal,0,[],True,TN
+0238477_sc-227181.jpg,damaged,normal,0,[],False,FN
+0498700_as-0098334.jpg,damaged,damaged,2,"[0.8216223120689392, 0.564635694026947]",True,TP
+bg_0013.jpg,normal,normal,0,[],True,TN
+0362513_sc-191078.jpg,damaged,normal,0,[],False,FN
+0263517_as-0097896.jpg,damaged,normal,0,[],False,FN
+bg_0054.jpg,normal,normal,0,[],True,TN
+0411541_as-0094462.jpg,damaged,damaged,1,[0.6253119707107544],True,TP
+0283348_sc-192159.jpg,damaged,normal,0,[],False,FN
+0339092_sc-149389.jpg,damaged,damaged,1,[0.532994270324707],True,TP
+bg_0475.jpg,normal,normal,0,[],True,TN
+0442642_sc-225918.jpg,damaged,normal,0,[],False,FN
+bg_0359.jpg,normal,normal,0,[],True,TN
+0037819_as-0098380.jpg,damaged,normal,0,[],False,FN
+bg_0225.jpg,normal,normal,0,[],True,TN
+0270658_sc-137794.jpg,damaged,damaged,1,[0.5242919325828552],True,TP
+normal_0000.jpg,normal,normal,0,[],True,TN
+0268550_as-0097762.jpg,damaged,normal,0,[],False,FN
+0147198_sc-127164.jpg,damaged,damaged,1,[0.5363916158676147],True,TP
+bg_0224.jpg,normal,normal,0,[],True,TN
+bg_0563.jpg,normal,normal,0,[],True,TN
+bg_0353.jpg,normal,normal,0,[],True,TN
+0292431_as-7044586.jpg,damaged,damaged,2,"[0.9740274548530579, 0.9478756189346313]",True,TP
+0184976_sc-155548.jpg,damaged,normal,0,[],False,FN
+0112451_sc-113504.jpg,damaged,damaged,1,[0.518182635307312],True,TP
+bg_0196.jpg,normal,normal,0,[],True,TN
+0085529_sc-109377.jpg,damaged,damaged,1,[0.7169016003608704],True,TP
+bg_0352.jpg,normal,normal,0,[],True,TN
+bg_0040.jpg,normal,normal,0,[],True,TN
+bg_0207.jpg,normal,normal,0,[],True,TN
+bg_0118.jpg,normal,normal,0,[],True,TN
+0163828_sc-212354.jpg,damaged,normal,0,[],False,FN
+0395450_sc-215188.jpg,damaged,normal,0,[],False,FN
+0484874_sc-177755.jpg,damaged,damaged,2,"[0.7294285893440247, 0.5186840295791626]",True,TP
+0149447_sc-161531.jpg,damaged,normal,0,[],False,FN
+bg_0161.jpg,normal,normal,0,[],True,TN
+bg_0259.jpg,normal,normal,0,[],True,TN
+0357378_as-2876849.jpg,damaged,damaged,1,[0.7393629550933838],True,TP
+0006637_as-0099425.jpg,damaged,damaged,1,[0.5157306790351868],True,TP
+normal_0064.jpg,normal,normal,0,[],True,TN
+normal_0152.jpg,normal,normal,0,[],True,TN
+0082415_sc-161209.jpg,damaged,normal,0,[],False,FN
+normal_0147.jpg,normal,normal,0,[],True,TN
+bg_0498.jpg,normal,normal,0,[],True,TN
+0297484_sc-159059.jpg,damaged,damaged,2,"[0.6101323366165161, 0.5176690220832825]",True,TP
+0323026_as-2519162.jpg,damaged,damaged,1,[0.7762410640716553],True,TP
+0175129_as-3477894.jpg,damaged,damaged,1,[0.8592922687530518],True,TP
+0416603_sc-142751.jpg,damaged,normal,0,[],False,FN
+0432306_as-3290465.jpg,damaged,damaged,1,[0.6851983666419983],True,TP
+0422101_as-0100120.jpg,damaged,damaged,1,[0.6114909052848816],True,TP
+0192218_sc-126494.jpg,damaged,normal,0,[],False,FN
+bg_0157.jpg,normal,normal,0,[],True,TN
+bg_0227.jpg,normal,normal,0,[],True,TN
+bg_0112.jpg,normal,normal,0,[],True,TN
+0102122_as-2544895.jpg,damaged,damaged,4,"[0.823030948638916, 0.821037769317627, 0.7735300064086914, 0.7127368450164795]",True,TP
+0034390_as-0100039.jpg,damaged,normal,0,[],False,FN
+0298929_as-0100037.jpg,damaged,normal,0,[],False,FN
+bg_0216.jpg,normal,normal,0,[],True,TN
+bg_0187.jpg,normal,normal,0,[],True,TN
+bg_0261.jpg,normal,normal,0,[],True,TN
+0449922_sc-213137.jpg,damaged,normal,0,[],False,FN
+bg_0502.jpg,normal,normal,0,[],True,TN
+0215331_sc-159546.jpg,damaged,normal,0,[],False,FN
+0161760_sc-143835.jpg,damaged,normal,0,[],False,FN
+0184326_as-7795375.jpg,damaged,damaged,2,"[0.9011692404747009, 0.8345956802368164]",True,TP
+bg_0107.jpg,normal,normal,0,[],True,TN
+0163386_sc-124959.jpg,damaged,normal,0,[],False,FN
+0011570_as-7872658.jpg,damaged,damaged,1,[0.880241870880127],True,TP
+0357663_sc-157033.jpg,damaged,damaged,1,[0.5955386161804199],True,TP
+0174272_sc-201859.jpg,damaged,damaged,1,[0.6349061727523804],True,TP
+bg_0265.jpg,normal,normal,0,[],True,TN
+normal_0143.jpg,normal,normal,0,[],True,TN
+0164753_as-2648487.jpg,damaged,damaged,1,[0.9444048404693604],True,TP
+0375939_as-2773451.jpg,damaged,damaged,1,[0.707976222038269],True,TP
+0249045_sc-164683.jpg,damaged,damaged,2,"[0.6886113882064819, 0.5013481378555298]",True,TP
+0205923_as-0098420.jpg,damaged,normal,0,[],False,FN
+0002011_as-0097507.jpg,damaged,normal,0,[],False,FN
+0262474_as-7098861.jpg,damaged,damaged,2,"[0.9026251435279846, 0.8114482164382935]",True,TP
+0467036_sc-225750.jpg,damaged,normal,0,[],False,FN
+0264066_as-0099689.jpg,damaged,damaged,1,[0.6670284271240234],True,TP
+0243821_sc-210697.jpg,damaged,damaged,1,[0.5388360619544983],True,TP
+normal_0067.jpg,normal,normal,0,[],True,TN
+normal_0082.jpg,normal,normal,0,[],True,TN
+bg_0034.jpg,normal,normal,0,[],True,TN
+bg_0142.jpg,normal,normal,0,[],True,TN
+0503229_sc-190861.jpg,damaged,normal,0,[],False,FN
+bg_0378.jpg,normal,normal,0,[],True,TN
+bg_0492.jpg,normal,normal,0,[],True,TN
+bg_0201.jpg,normal,normal,0,[],True,TN
+0429310_sc-212291.jpg,damaged,damaged,1,[0.5560107231140137],True,TP
+normal_0037.jpg,normal,normal,0,[],True,TN
+0176963_sc-165336.jpg,damaged,damaged,1,[0.5449236631393433],True,TP
+0288282_sc-154889.jpg,damaged,normal,0,[],False,FN
+bg_0435.jpg,normal,normal,0,[],True,TN
+0105230_sc-183329.jpg,damaged,damaged,1,[0.5895068645477295],True,TP
+0365107_sc-117859.jpg,damaged,damaged,1,[0.5708610415458679],True,TP
+0055710_sc-154210.jpg,damaged,normal,0,[],False,FN
+0407057_as-9023700.jpg,damaged,damaged,1,[0.903098464012146],True,TP
+bg_0405.jpg,normal,normal,0,[],True,TN
+0433020_sc-164047.jpg,damaged,damaged,1,[0.5863606929779053],True,TP
+bg_0447.jpg,normal,normal,0,[],True,TN
+0250391_sc-221583.jpg,damaged,damaged,1,[0.5425423383712769],True,TP
+0418963_as-2938652.jpg,damaged,damaged,5,"[0.8821884393692017, 0.8781211376190186, 0.7857388854026794, 0.7693156003952026, 0.6192082166671753]",True,TP
+bg_0327.jpg,normal,normal,0,[],True,TN
+bg_0506.jpg,normal,normal,0,[],True,TN
+0260237_sc-152491.jpg,damaged,normal,0,[],False,FN
+normal_0096.jpg,normal,normal,0,[],True,TN
+0186863_sc-154851.jpg,damaged,normal,0,[],False,FN
+bg_0459.jpg,normal,normal,0,[],True,TN
+0175392_as-0098501.jpg,damaged,damaged,1,[0.8133943676948547],True,TP
+0177445_as-0099433.jpg,damaged,normal,0,[],False,FN
+0270657_sc-137794.jpg,damaged,damaged,1,[0.6210265159606934],True,TP
+0335487_as-3459662.jpg,damaged,damaged,1,[0.8152487277984619],True,TP
+0244984_sc-177462.jpg,damaged,normal,0,[],False,FN
+bg_0379.jpg,normal,normal,0,[],True,TN
+bg_0309.jpg,normal,normal,0,[],True,TN
+0435390_sc-159499.jpg,damaged,normal,0,[],False,FN
+0376375_sc-166079.jpg,damaged,normal,0,[],False,FN
+bg_0556.jpg,normal,normal,0,[],True,TN
+bg_0083.jpg,normal,normal,0,[],True,TN
+0450117_sc-180064.jpg,damaged,damaged,1,[0.6225125193595886],True,TP
+0484341_sc-137775.jpg,damaged,normal,0,[],False,FN
+0460904_sc-192604.jpg,damaged,damaged,1,[0.8359414339065552],True,TP
+0276494_as-0100133.jpg,damaged,damaged,1,[0.5849369168281555],True,TP
+0504565_sc-213981.jpg,damaged,normal,0,[],False,FN
+0453003_as-3115203.jpg,damaged,damaged,2,"[0.9320260286331177, 0.6311048865318298]",True,TP
+bg_0139.jpg,normal,normal,0,[],True,TN
+0207587_sc-175888.jpg,damaged,normal,0,[],False,FN
+0499333_as-2768692.jpg,damaged,damaged,4,"[0.8363022804260254, 0.7610499262809753, 0.7604419589042664, 0.7099760174751282]",True,TP
+bg_0357.jpg,normal,normal,0,[],True,TN
+0157833_as-3454560.jpg,damaged,damaged,2,"[0.8914693593978882, 0.8447400331497192]",True,TP
+bg_0228.jpg,normal,normal,0,[],True,TN
+0355009_sc-164290.jpg,damaged,normal,0,[],False,FN
+0065339_as-2724041.jpg,damaged,damaged,1,[0.8548182249069214],True,TP
+bg_0164.jpg,normal,normal,0,[],True,TN
+bg_0235.jpg,normal,normal,0,[],True,TN
+bg_0281.jpg,normal,normal,0,[],True,TN
+0292443_as-7909095.jpg,damaged,damaged,6,"[0.9611592888832092, 0.9063795208930969, 0.9021041393280029, 0.8860103487968445, 0.8640258312225342, 0.7312344312667847]",True,TP
+0191776_sc-171831.jpg,damaged,normal,0,[],False,FN
+0203933_as-3377655.jpg,damaged,normal,0,[],False,FN
+bg_0465.jpg,normal,normal,0,[],True,TN
+bg_0385.jpg,normal,normal,0,[],True,TN
+bg_0457.jpg,normal,normal,0,[],True,TN
+bg_0160.jpg,normal,normal,0,[],True,TN
+0374277_sc-227232.jpg,damaged,normal,0,[],False,FN
+0120139_sc-194608.jpg,damaged,normal,0,[],False,FN
+bg_0048.jpg,normal,normal,0,[],True,TN
+0271961_sc-122618.jpg,damaged,damaged,1,[0.6955525875091553],True,TP
+0009983_sc-121870.jpg,damaged,normal,0,[],False,FN
+bg_0301.jpg,normal,normal,0,[],True,TN
+bg_0580.jpg,normal,normal,0,[],True,TN
+bg_0356.jpg,normal,normal,0,[],True,TN
+bg_0449.jpg,normal,normal,0,[],True,TN
+0116123_sc-171689.jpg,damaged,damaged,2,"[0.6480827331542969, 0.5074254870414734]",True,TP
+0490798_sc-152351.jpg,damaged,normal,0,[],False,FN
+0192723_sc-177196.jpg,damaged,damaged,1,[0.5999878644943237],True,TP
+0210760_sc-206304.jpg,damaged,normal,0,[],False,FN
+bg_0008.jpg,normal,normal,0,[],True,TN
+normal_0148.jpg,normal,normal,0,[],True,TN
+0225521_as-0094687.jpg,damaged,normal,0,[],False,FN
+0019385_as-3083261.jpg,damaged,damaged,1,[0.8535222411155701],True,TP
+normal_0142.jpg,normal,normal,0,[],True,TN
+0004566_sc-195121.jpg,damaged,normal,0,[],False,FN
+bg_0058.jpg,normal,normal,0,[],True,TN
+0433879_as-0100096.jpg,damaged,normal,0,[],False,FN
+normal_0041.jpg,normal,normal,0,[],True,TN
+0344418_as-7918579.jpg,damaged,damaged,2,"[0.9452753663063049, 0.7941439151763916]",True,TP
+0490221_sc-164146.jpg,damaged,normal,0,[],False,FN
+bg_0321.jpg,normal,normal,0,[],True,TN
+bg_0386.jpg,normal,normal,0,[],True,TN
+bg_0234.jpg,normal,normal,0,[],True,TN
+0477078_sc-158651.jpg,damaged,normal,0,[],False,FN
+0024711_as-9062848.jpg,damaged,damaged,3,"[0.8574438095092773, 0.7465225458145142, 0.6121357679367065]",True,TP
+bg_0431.jpg,normal,normal,0,[],True,TN
+0048891_as-3250312.jpg,damaged,normal,0,[],False,FN
+0501956_as-2834835.jpg,damaged,damaged,2,"[0.8548288345336914, 0.7669100165367126]",True,TP
+0249040_sc-211483.jpg,damaged,damaged,1,[0.5942996740341187],True,TP
+0453199_as-2873410.jpg,damaged,damaged,1,[0.9646678566932678],True,TP
+0472591_sc-161668.jpg,damaged,damaged,1,[0.6554977297782898],True,TP
+bg_0510.jpg,normal,normal,0,[],True,TN
+0202811_sc-213386.jpg,damaged,normal,0,[],False,FN
+0012009_as-9052974.jpg,damaged,damaged,6,"[0.9167559742927551, 0.8422489166259766, 0.8245463371276855, 0.6922426819801331, 0.6723514795303345, 0.5968143939971924]",True,TP
+0068041_sc-230154.jpg,damaged,normal,0,[],False,FN
+0351579_as-3487309.jpg,damaged,damaged,2,"[0.9012149572372437, 0.5846347808837891]",True,TP
+bg_0432.jpg,normal,normal,0,[],True,TN
+bg_0483.jpg,normal,normal,0,[],True,TN
+0129387_as-7315279.jpg,damaged,damaged,2,"[0.8360849022865295, 0.8156194686889648]",True,TP
+bg_0276.jpg,normal,normal,0,[],True,TN
+bg_0545.jpg,normal,normal,0,[],True,TN
+0420943_as-7953812.jpg,damaged,damaged,1,[0.8873915076255798],True,TP
+0148526_sc-127733.jpg,damaged,damaged,1,[0.6611116528511047],True,TP
+0286430_as-3158367.jpg,damaged,damaged,1,[0.9098499417304993],True,TP
+0306413_sc-155464.jpg,damaged,normal,0,[],False,FN
+bg_0181.jpg,normal,normal,0,[],True,TN
+0492092_as-0099411.jpg,damaged,normal,0,[],False,FN
+bg_0461.jpg,normal,normal,0,[],True,TN
+0167793_sc-163339.jpg,damaged,normal,0,[],False,FN
+0469825_as-0097522.jpg,damaged,normal,0,[],False,FN
+0032627_as-7542464.jpg,damaged,damaged,1,[0.8921943306922913],True,TP
+0203333_sc-126448.jpg,damaged,normal,0,[],False,FN
+bg_0140.jpg,normal,normal,0,[],True,TN
+bg_0172.jpg,normal,normal,0,[],True,TN
+0061451_sc-142433.jpg,damaged,damaged,1,[0.6522460579872131],True,TP
+0297718_as-0098204.jpg,damaged,normal,0,[],False,FN
+0354001_sc-203504.jpg,damaged,normal,0,[],False,FN
+0065021_sc-200578.jpg,damaged,damaged,1,[0.5948558449745178],True,TP
+bg_0057.jpg,normal,normal,0,[],True,TN
+bg_0147.jpg,normal,normal,0,[],True,TN
+normal_0051.jpg,normal,normal,0,[],True,TN
+bg_0223.jpg,normal,normal,0,[],True,TN
+bg_0156.jpg,normal,normal,0,[],True,TN
+0014330_as-3200305.jpg,damaged,damaged,6,"[0.9341636300086975, 0.9009369015693665, 0.8664768934249878, 0.8363276720046997, 0.8007528781890869, 0.7062812447547913]",True,TP
+0327762_sc-198391.jpg,damaged,damaged,1,[0.5683746337890625],True,TP
+normal_0103.jpg,normal,normal,0,[],True,TN
+normal_0054.jpg,normal,normal,0,[],True,TN
+0079744_sc-219043.jpg,damaged,normal,0,[],False,FN
+0267782_sc-162261.jpg,damaged,normal,0,[],False,FN
+bg_0175.jpg,normal,normal,0,[],True,TN
+0484948_sc-132079.jpg,damaged,normal,0,[],False,FN
+0489884_as-3044828.jpg,damaged,normal,0,[],False,FN
+normal_0132.jpg,normal,normal,0,[],True,TN
+0398608_sc-139776.jpg,damaged,damaged,1,[0.6199709177017212],True,TP
+0167131_sc-135503.jpg,damaged,normal,0,[],False,FN
+0285172_sc-180800.jpg,damaged,damaged,1,[0.5284022092819214],True,TP
+0453764_sc-130814.jpg,damaged,damaged,1,[0.5924278497695923],True,TP
+0384923_as-0008960.jpg,damaged,normal,0,[],False,FN
+0254079_sc-208135.jpg,damaged,damaged,1,[0.760552704334259],True,TP
+0027852_sc-214481.jpg,damaged,normal,0,[],False,FN
+0315331_as-3206512.jpg,damaged,damaged,6,"[0.9252462387084961, 0.8727782964706421, 0.8196138143539429, 0.7172765731811523, 0.7093541026115417, 0.5507195591926575]",True,TP
+bg_0547.jpg,normal,normal,0,[],True,TN
+0495353_as-7076456.jpg,damaged,damaged,2,"[0.8375236988067627, 0.8318167924880981]",True,TP
+0334424_as-0097062.jpg,damaged,normal,0,[],False,FN
+normal_0042.jpg,normal,normal,0,[],True,TN
+0394017_as-2761544.jpg,damaged,normal,0,[],False,FN
+0049372_as-0098423.jpg,damaged,normal,0,[],False,FN
+0059526_sc-174515.jpg,damaged,normal,0,[],False,FN
+0356949_as-2518439.jpg,damaged,normal,0,[],False,FN
+bg_0553.jpg,normal,normal,0,[],True,TN
+0111961_sc-169881.jpg,damaged,normal,0,[],False,FN
+bg_0170.jpg,normal,normal,0,[],True,TN
+0434299_sc-125105.jpg,damaged,normal,0,[],False,FN
+0278250_sc-200452.jpg,damaged,normal,0,[],False,FN
+0045704_as-3259707.jpg,damaged,damaged,2,"[0.9236233830451965, 0.8534336686134338]",True,TP
+0099823_as-7336887.jpg,damaged,damaged,4,"[0.8716495633125305, 0.8240609169006348, 0.7634119391441345, 0.6336805820465088]",True,TP
+bg_0402.jpg,normal,normal,0,[],True,TN
+bg_0469.jpg,normal,normal,0,[],True,TN
+normal_0106.jpg,normal,normal,0,[],True,TN
+0153997_as-2724226.jpg,damaged,damaged,1,[0.9380621910095215],True,TP
+0063055_sc-207034.jpg,damaged,normal,0,[],False,FN
+0323434_sc-148665.jpg,damaged,normal,0,[],False,FN
+0488255_as-2688657.jpg,damaged,damaged,1,[0.5544968247413635],True,TP
+0171003_sc-204525.jpg,damaged,normal,0,[],False,FN
+bg_0568.jpg,normal,normal,0,[],True,TN
+0386212_as-2801540.jpg,damaged,damaged,1,[0.8475625514984131],True,TP
+bg_0477.jpg,normal,normal,0,[],True,TN
+0271142_as-7148895.jpg,damaged,damaged,2,"[0.9037777185440063, 0.8186941742897034]",True,TP
+0017229_sc-192947.jpg,damaged,normal,0,[],False,FN
+normal_0077.jpg,normal,normal,0,[],True,TN
+bg_0217.jpg,normal,normal,0,[],True,TN
+bg_0254.jpg,normal,normal,0,[],True,TN
+bg_0294.jpg,normal,normal,0,[],True,TN
+0118689_sc-1023870.jpg,damaged,damaged,1,[0.5344763398170471],True,TP
+bg_0474.jpg,normal,normal,0,[],True,TN
+0212314_as-3450644.jpg,damaged,damaged,2,"[0.6072486042976379, 0.5395601987838745]",True,TP
+bg_0495.jpg,normal,normal,0,[],True,TN
+0102627_sc-204032.jpg,damaged,normal,0,[],False,FN
+normal_0084.jpg,normal,normal,0,[],True,TN
+0092637_as-7428864.jpg,damaged,damaged,2,"[0.8335447907447815, 0.811750590801239]",True,TP
+0384404_sc-160748.jpg,damaged,normal,0,[],False,FN
+normal_0043.jpg,normal,normal,0,[],True,TN
+0002010_as-0097507.jpg,damaged,normal,0,[],False,FN
+0071748_sc-114926.jpg,damaged,normal,0,[],False,FN
+0204027_as-0094427.jpg,damaged,normal,0,[],False,FN
+0151937_sc-108419.jpg,damaged,normal,0,[],False,FN
+normal_0039.jpg,normal,normal,0,[],True,TN
+0004870_as-0098014.jpg,damaged,normal,0,[],False,FN
+0321423_sc-189759.jpg,damaged,damaged,2,"[0.5690838694572449, 0.5243045091629028]",True,TP
+0068036_sc-156387.jpg,damaged,normal,0,[],False,FN
+bg_0115.jpg,normal,normal,0,[],True,TN
+normal_0128.jpg,normal,normal,0,[],True,TN
+0427728_sc-150039.jpg,damaged,normal,0,[],False,FN
+0413686_sc-170052.jpg,damaged,normal,0,[],False,FN
+bg_0239.jpg,normal,normal,0,[],True,TN
+0146454_as-0097744.jpg,damaged,damaged,3,"[0.6921234130859375, 0.6084802150726318, 0.5335396528244019]",True,TP
+bg_0366.jpg,normal,normal,0,[],True,TN
+bg_0369.jpg,normal,normal,0,[],True,TN
+normal_0092.jpg,normal,normal,0,[],True,TN
+normal_0027.jpg,normal,normal,0,[],True,TN
+0506224_as-3233185.jpg,damaged,normal,0,[],False,FN
+0466335_sc-140202.jpg,damaged,normal,0,[],False,FN
+0029007_as-9004720.jpg,damaged,normal,0,[],False,FN
+normal_0075.jpg,normal,normal,0,[],True,TN
+0138791_sc-176480.jpg,damaged,damaged,1,[0.6830126047134399],True,TP
+0455603_sc-128227.jpg,damaged,damaged,1,[0.5154436230659485],True,TP
+0083019_sc-146509.jpg,damaged,normal,0,[],False,FN
+bg_0513.jpg,normal,normal,0,[],True,TN
+bg_0467.jpg,normal,normal,0,[],True,TN
+bg_0313.jpg,normal,normal,0,[],True,TN
+0139902_sc-210862.jpg,damaged,normal,0,[],False,FN
+normal_0053.jpg,normal,normal,0,[],True,TN
+bg_0504.jpg,normal,normal,0,[],True,TN
+0348130_sc-229405.jpg,damaged,normal,0,[],False,FN
+0449686_as-9073870.jpg,damaged,damaged,2,"[0.9035271406173706, 0.8910281658172607]",True,TP
+bg_0521.jpg,normal,normal,0,[],True,TN
+0156967_sc-196023.jpg,damaged,normal,0,[],False,FN
+0338342_as-0098841.jpg,damaged,normal,0,[],False,FN
+bg_0520.jpg,normal,normal,0,[],True,TN
+0389832_as-9035205.jpg,damaged,damaged,6,"[0.9382137060165405, 0.8724156618118286, 0.8144078254699707, 0.7271206378936768, 0.6792135834693909, 0.6121693849563599]",True,TP
+bg_0588.jpg,normal,normal,0,[],True,TN
+bg_0302.jpg,normal,normal,0,[],True,TN
+0305353_sc-157275.jpg,damaged,normal,0,[],False,FN
+0481854_as-3363477.jpg,damaged,normal,0,[],False,FN
+normal_0004.jpg,normal,normal,0,[],True,TN
+0356544_sc-210777.jpg,damaged,normal,0,[],False,FN
+bg_0392.jpg,normal,normal,0,[],True,TN
+bg_0573.jpg,normal,normal,0,[],True,TN
+0279168_as-3244088.jpg,damaged,damaged,2,"[0.8358651399612427, 0.7318640947341919]",True,TP
+0464106_as-3031666.jpg,damaged,damaged,1,[0.8453239798545837],True,TP
+0431234_sc-131042.jpg,damaged,normal,0,[],False,FN
+bg_0134.jpg,normal,normal,0,[],True,TN
+0454228_sc-197327.jpg,damaged,normal,0,[],False,FN
+0034157_sc-207940.jpg,damaged,normal,0,[],False,FN
+0370380_sc-148388.jpg,damaged,normal,0,[],False,FN
+0357048_as-2517003.jpg,damaged,damaged,2,"[0.9055485725402832, 0.9027659893035889]",True,TP
+0302623_as-2793060.jpg,damaged,damaged,4,"[0.8875654339790344, 0.8602097630500793, 0.8282198905944824, 0.7849730253219604]",True,TP
+normal_0101.jpg,normal,normal,0,[],True,TN
+0361268_sc-164037.jpg,damaged,normal,0,[],False,FN
+0209821_as-2816800.jpg,damaged,damaged,2,"[0.8563658595085144, 0.6124610304832458]",True,TP
+bg_0507.jpg,normal,normal,0,[],True,TN
+0057578_as-0098080.jpg,damaged,normal,0,[],False,FN
+0413509_as-2547434.jpg,damaged,damaged,1,[0.9258809089660645],True,TP
+0200281_as-2877789.jpg,damaged,damaged,2,"[0.9265244603157043, 0.566432774066925]",True,TP
+0361245_sc-200520.jpg,damaged,normal,0,[],False,FN
+bg_0285.jpg,normal,normal,0,[],True,TN
+0250112_as-0098728.jpg,damaged,damaged,1,[0.7335349917411804],True,TP
+bg_0575.jpg,normal,normal,0,[],True,TN
+bg_0371.jpg,normal,normal,0,[],True,TN
+0007211_sc-172188.jpg,damaged,normal,0,[],False,FN
+0128413_sc-1039751.jpg,damaged,normal,0,[],False,FN
+0105868_sc-227017.jpg,damaged,normal,0,[],False,FN
+0235560_sc-217925.jpg,damaged,damaged,1,[0.717887818813324],True,TP
+bg_0165.jpg,normal,normal,0,[],True,TN
+0398609_sc-139776.jpg,damaged,normal,0,[],False,FN

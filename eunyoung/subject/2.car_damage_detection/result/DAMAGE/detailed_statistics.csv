@@ -1,0 +1,15 @@
+﻿category,count,description
+Total Images,392,Total images evaluated
+With Vehicle,113,Images with vehicles
+No Vehicle,279,Images without vehicles
+,,
+True Positive (TP),27,Damaged correctly identified as damaged
+True Negative (TN),25,Normal correctly identified as normal
+False Positive (FP),1,Normal incorrectly identified as damaged (오탐)
+False Negative (FN),60,Damaged incorrectly identified as normal (미탐)
+,,
+Damaged (Ground Truth),87,Total damaged vehicles (actual)
+Normal (Ground Truth),26,Total normal vehicles (actual)
+,,
+Predicted Damaged,28,Total predicted as damaged
+Predicted Normal,85,Total predicted as normal

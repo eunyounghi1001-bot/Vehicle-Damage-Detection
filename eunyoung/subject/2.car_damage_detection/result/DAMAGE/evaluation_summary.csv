@@ -1,0 +1,14 @@
+﻿Item,Value
+Evaluation Date,2025-12-21 04:25:14
+Model Path,car_damage_model/train/weights/best.pt
+Total Images,392
+,
+Accuracy,0.4602
+Precision,0.9643
+Recall,0.3103
+F1-Score,0.4696
+,
+True Positive,27
+True Negative,25
+False Positive,1
+False Negative,60

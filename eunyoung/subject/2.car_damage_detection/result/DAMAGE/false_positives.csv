@@ -1,0 +1,2 @@
+﻿filename,ground_truth,prediction,correct,result_type
+normal_0075.jpg,normal,damaged,False,FP
