@@ -22,7 +22,7 @@
 ## 🛠 Workflow
 
 1. Data Preparation
-  - Source: AI Hub + coco data
+  - Source: AI Hub + coco data + kaggle data 
   - Input Structure:
     - Damaged: 파손 차량 이미지 + JSON 라벨 (Global Coordinates)
     - Normal: 정상 차량 이미지 (No Labels)
@@ -41,7 +41,7 @@
 | <img src="./results/01_detection/car_damage_dataset_sample.png" width="100%"> 
 
 3. Model Training
-  - Base Model: yolov8x.pt / yolov8m.pt (Fine-tuning)
+  - Base Model: yolov8m.pt / yolov8l.pt (Fine-tuning)
   - Configuration:
   - Epochs: 50~100
   - Image Size: 640 ~ 1024
