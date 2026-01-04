@@ -1,0 +1,8 @@
+names:
+- Scratched
+- Separated
+- Breakage
+- Crushed
+nc: 4
+train: /content/damage_dataset/train/images
+val: /content/damage_dataset/val/images
