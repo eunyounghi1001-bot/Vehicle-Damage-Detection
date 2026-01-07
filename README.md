@@ -17,9 +17,10 @@
 
 | Subject| Stage | Topic | Model | Status | Report |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Data Set** | **Step 0** | 데이터셋 구축 | AI-Hub(1200) + COCO + Kaggle| ✅ Done | [상세보기](./notebooks/00_Data_Preparation/README.md) |
+| **DJ.Data Set** | **Step 1** | 데이터셋 구축 | AI-Hub(12000) + COCO + Kaggle| ✅ Done | [상세보기](./notebooks/00_Data_Preparation_ver2/README.md) |
 | **DJ.Car Detection** | **Step 0** | 데이터셋 구축 | AI-Hub + COCO | ✅ Done | [상세보기](./notebooks/00_Data_Preparation/README.md) |
 | **DJ.Car Detection** | **Step 1** | 차량 인식 베이스라인 | YOLOv8x (Pre-trained) | ✅ Done | [상세보기](./notebooks/01_Baseline_Inference/README.md) |
-| **DJ.Data Set** | **Step 1** | 데이터셋 구축 | AI-Hub(12000) + COCO + Kaggle| ✅ Done | [상세보기](./notebooks/00_Data_Preparation_ver2/README.md) |
 | **DJ.Car Detection** | **Step 2** | 차량 인식 파인튜닝_1st | YOLOv8 Custom | ✅ Done |  [상세보기](./notebooks/02_Car_Detection_FineTuning_1st/README.md) | |
 | **DJ.Car Detection** | **Step 3** | 차량 인식 파인튜닝_2nd | YOLOv8 Custom | ✅ Done | [상세보기](./notebooks/03_Car_Detection_FineTuning_2nd/README.md) | |
 | **DJ.Car Detection** | **Step 4** | 차량 인식 파인튜닝_3rd | YOLOv8 Custom | ✅ Done | [상세보기](./notebooks/04_Car_Detection_FineTuning_3rd/README.md) | |
