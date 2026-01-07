@@ -11,27 +11,25 @@
 | 이미지분석기본개념 | ✅ Done | [상세보기](./theory/이미지분석기본개념.md) |
 
 
-
-
 ## Project Roadmap & Study Log
 
-| Subject| Stage | Topic | Model | Status | Report |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Data Set** | **Step 0** | 데이터셋 구축 | AI-Hub(1200) + COCO + Kaggle| ✅ Done | [상세보기](./notebooks/00_Data_Preparation/README.md) |
-| **DJ.Data Set** | **Step 1** | 데이터셋 구축 | AI-Hub(12000) + COCO + Kaggle| ✅ Done | [상세보기](./notebooks/00_Data_Preparation_ver2/README.md) |
-| **DJ.Car Detection** | **Step 0** | 데이터셋 구축 | AI-Hub + COCO | ✅ Done | [상세보기](./notebooks/00_Data_Preparation/README.md) |
-| **DJ.Car Detection** | **Step 1** | 차량 인식 베이스라인 | YOLOv8x (Pre-trained) | ✅ Done | [상세보기](./notebooks/01_Baseline_Inference/README.md) |
-| **DJ.Car Detection** | **Step 2** | 차량 인식 파인튜닝_1st | YOLOv8 Custom | ✅ Done |  [상세보기](./notebooks/02_Car_Detection_FineTuning_1st/README.md) | |
-| **DJ.Car Detection** | **Step 3** | 차량 인식 파인튜닝_2nd | YOLOv8 Custom | ✅ Done | [상세보기](./notebooks/03_Car_Detection_FineTuning_2nd/README.md) | |
-| **DJ.Car Detection** | **Step 4** | 차량 인식 파인튜닝_3rd | YOLOv8 Custom | ✅ Done | [상세보기](./notebooks/04_Car_Detection_FineTuning_3rd/README.md) | |
-| **Car Detection** | **Step 5** | 차량 인식 4th | YOLOv8 | - 삭제 - |  | |
-| **Car Detection** | **Step 6** | 차량 인식 5th | YOLOv8 (12000) | ✅ Done | [상세보기](./notebooks/06_Car_Detection_FineTuning_5th/README.md) | |
-| **DJ.Damage Detection** | **Step 1** | 파손 인식 파인튜닝_1st | YOLOv8 Custom | ✅ Done | [상세보기](./notebooks/05_Damage_Detection_FineTuning_1st/README.md) | |
-| **DJ.Damage Detection** | **Step 2** | 파손 인식 파인튜닝_2nd | YOLOv8 Custom | ✅ Done | [상세보기](./notebooks/06_Damage_Detection_FineTuning_2nd/README.md) | |
-| **Damage Detection** | **Step 3** | 파손 인식 3rd | YOLOv8 (12000) | ✅ Done | [상세보기](./notebooks/07_Damage_Detection_FineTuning_3rd/README.md) | |
-| **Damage Detection** | **Step 1** | 다양한 데이터셋 활용 | YOLOv8, Resnet18 | ✅ Done | [상세보기](./notebooks/다양한데이터셋활용/README.md) | |
-| **Damage Categorization** | **Step 1** | 파손 여부 파인튜닝 | YOLOv8s | ✅ Done | [상세보기](./JR/week_03/README.md) | |
-| **DJ.Damage Classification** | **Step 1** | 파손 유형 1st | YOLOv8 (12000) | ✅ Done | [상세보기](./notebooks/08_Damage_Classification_FineTuning_1st/README.md) | |
+| Subject| WHO | Stage | Topic | Model | Status | Report |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Data Set** |DJ| **Step 0** | 데이터셋 구축 | AI-Hub(1200) + COCO + Kaggle| ✅ Done | [상세보기](./notebooks/00_Data_Preparation/README.md) |
+| **Data Set** |DJ| **Step 1** | 데이터셋 구축 | AI-Hub(12000) + COCO + Kaggle| ✅ Done | [상세보기](./notebooks/00_Data_Preparation_ver2/README.md) |
+| **Car Detection** |DJ| **Step 0** | 데이터셋 구축 | AI-Hub + COCO | ✅ Done | [상세보기](./notebooks/00_Data_Preparation/README.md) |
+| **Car Detection** |DJ| **Step 1** | 차량 인식 베이스라인 | YOLOv8x (Pre-trained) | ✅ Done | [상세보기](./notebooks/01_Baseline_Inference/README.md) |
+| **Car Detection** |DJ| **Step 2** | 차량 인식 파인튜닝_1st | YOLOv8 Custom | ✅ Done |  [상세보기](./notebooks/02_Car_Detection_FineTuning_1st/README.md) | |
+| **Car Detection** |DJ| **Step 3** | 차량 인식 파인튜닝_2nd | YOLOv8 Custom | ✅ Done | [상세보기](./notebooks/03_Car_Detection_FineTuning_2nd/README.md) | |
+| **Car Detection** |DJ| **Step 4** | 차량 인식 파인튜닝_3rd | YOLOv8 Custom | ✅ Done | [상세보기](./notebooks/04_Car_Detection_FineTuning_3rd/README.md) | |
+| **Car Detection** |DJ| **Step 5** | 차량 인식 4th | YOLOv8 | - 삭제 - |  | |
+| **Car Detection** |DJ| **Step 6** | 차량 인식 5th | YOLOv8 (12000) | ✅ Done | [상세보기](./notebooks/06_Car_Detection_FineTuning_5th/README.md) | |
+| **Damage Detection** |DJ| **Step 1** | 파손 인식 파인튜닝_1st | YOLOv8 Custom | ✅ Done | [상세보기](./notebooks/05_Damage_Detection_FineTuning_1st/README.md) | |
+| **Damage Detection** |DJ| **Step 2** | 파손 인식 파인튜닝_2nd | YOLOv8 Custom | ✅ Done | [상세보기](./notebooks/06_Damage_Detection_FineTuning_2nd/README.md) | |
+| **Damage Detection** |DJ| **Step 3** | 파손 인식 3rd | YOLOv8 (12000) | ✅ Done | [상세보기](./notebooks/07_Damage_Detection_FineTuning_3rd/README.md) | |
+| **Damage Detection** |JR| **Step 1** | 다양한 데이터셋 활용 | YOLOv8, Resnet18 | ✅ Done | [상세보기](./notebooks/다양한데이터셋활용/README.md) | |
+| **Damage Categorization** |JR| **Step 1** | 파손 여부 파인튜닝 | YOLOv8s | ✅ Done | [상세보기](./JR/week_03/README.md) | |
+| **Damage Classification** |DJ| **Step 1** | 파손 유형 1st | YOLOv8 (12000) | ✅ Done | [상세보기](./notebooks/08_Damage_Classification_FineTuning_1st/README.md) | |
 
 ## Tech Stack
 * Python 3.10
