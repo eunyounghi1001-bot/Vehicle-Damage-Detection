@@ -226,3 +226,97 @@ DEVICE = 0  # GPU:0(L4 사용)
 
 > **Model 2는 더 정확하고 보수적이며,  
 Model 1은 더 많이 찾지만 실수가 많은 모델이다.**
+
+# 6.샘플 5000으로 추가 확인
+
+## 6-1.샘플 5000개 신규 확보(from aihub 차량파손이미지 원데이터)
+
+[손상종류별 수량]
+
+Crushed    : 1491\
+Scratched  : 5411\
+Breakage   : 2219\
+Separated  : 3224
+
+## 6-2.모델링
+
+[파라미터]
+
+# YOLO 학습 설정
+YOLO_MODEL = "yolov8s.pt"
+IMGSZ = 640
+EPOCHS = 100
+BATCH = 16
+DEVICE = 0 
+
+# 평가/시각화 설정
+IOU_MATCH_TH = 0.50      # GT-PRED 매칭 IoU 기준
+CONF_TH = 0.25           # 예측 confidence threshold
+PRED_IOU_NMS = 0.70      # predict() NMS iou
+MAX_VIS = 10             # best/worst 각 10장
+
+## 6-3.평가결과
+
+## TEST SUMMARY
+
+| 항목 | 값 |
+|---|---|
+| # Test Images | 500 |
+
+---
+
+## Overall Metrics
+
+### Micro / Macro Average
+
+| Metric Type | Precision | Recall | F1-score |
+|---|---:|---:|---:|
+| **Micro** | 0.3436 | 0.2265 | 0.2730 |
+| **Macro** | 0.3098 | 0.2114 | 0.2457 |
+
+| Additional Metric | Value |
+|---|---:|
+| TP | 280 |
+| FP | 535 |
+| FN | 956 |
+| Mean IoU (TP only) | 0.7327 |
+
+---
+
+## Per-Class Metrics
+
+| Class | TP | FP | FN | Precision | Recall | F1-score |
+|---|---:|---:|---:|---:|---:|---:|
+| Crushed | 9 | 37 | 128 | 0.1957 | 0.0657 | 0.0984 |
+| Scratched | 108 | 196 | 444 | 0.3553 | 0.1957 | 0.2523 |
+| Breakage | 59 | 133 | 175 | 0.3073 | 0.2521 | 0.2770 |
+| Separated | 104 | 169 | 209 | 0.3810 | 0.3323 | 0.3549 |
+
+- **resampling 했을때 성능이 더 나빠짐... ??????**
+
+## 6-4.시각화
+
+# 4.시각화
+**[BEST CASE]**
+![visualization](./images/best_01(samp5000).jpg)
+![visualization](./images/best_02(samp5000).jpg)
+![visualization](./images/best_03(samp5000).jpg)
+![visualization](./images/best_04(samp5000).jpg)
+![visualization](./images/best_05(samp5000).jpg)
+![visualization](./images/best_06(samp5000).jpg)
+![visualization](./images/best_07(samp5000).jpg)
+![visualization](./images/best_08(samp5000).jpg)
+![visualization](./images/best_09(samp5000).jpg)
+![visualization](./images/best_10(samp5000).jpg)
+
+**[WORST CASE]**
+![visualization](./images/worst_01(samp5000).jpg)
+![visualization](./images/worst_02(samp5000).jpg)
+![visualization](./images/worst_03(samp5000).jpg)
+![visualization](./images/worst_04(samp5000).jpg)
+![visualization](./images/worst_05(samp5000).jpg)
+![visualization](./images/worst_06(samp5000).jpg)
+![visualization](./images/worst_07(samp5000).jpg)
+![visualization](./images/worst_08(samp5000).jpg)
+![visualization](./images/worst_09(samp5000).jpg)
+![visualization](./images/worst_10(samp5000).jpg)
