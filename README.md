@@ -42,7 +42,7 @@
 | **Damage Detection** |DJ| **Step 3** | 파손 인식 3rd | YOLOv8 | Damaged 12,000 | [상세보기](./notebooks/07_Damage_Detection_FineTuning_3rd/README.md) | |
 | **Damage Detection** |JR| **Step 1** | 다양한 데이터셋 활용 | YOLOv8, Resnet18 | ✅ Done | [상세보기](./notebooks/다양한데이터셋활용/README.md) | |
 | **Damage Categorization** |JR| **Step 1** | 파손 여부 파인튜닝 | YOLOv8s | ✅ Done | [상세보기](./JR/week_03/README.md) | |
-| **Damage Classification** |DJ| **Step 1** | 파손 유형 1st | YOLOv8 | Damaged 12,000 | [상세보기](./notebooks/08_Damage_Classification_FineTuning_1st/README.md) | |
+| **Damage Categorization** |DJ| **Step 1** | 파손 유형 1st | YOLOv8 | Damaged 12,000 | [상세보기](./notebooks/08_Damage_Classification_FineTuning_1st/README.md) | |
 
 ## Tech Stack
 * Python 3.10
