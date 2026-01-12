@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/thanxjiny/Vehicle-Damage-Detection/blob/main/notebooks/05_Car_Detection_FineTuning_4th/6_study1_yolov8_fine_tuning_aihub.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/hdmf-ai-auto-spoke/Vehicle-Damage-Detection/blob/main/notebooks/05_Car_Detection_FineTuning_4th/6_study1_yolov8_fine_tuning_aihub.ipynb)
 
 # 🚀 Step 6. YOLOv8x Fine-tuning (5th Attempt)
 
@@ -133,6 +133,7 @@
 
 ## 📝 Conclusion 
 * **결론:** 하이브리드 라벨링을 전략과 kaggle의 데이터셋을 추가하여여 모델의 정확도를 비약적으로 상승시킴
+
 
 
 
