@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/thanxjiny/Vehicle-Damage-Detection/blob/main/notebooks/08_Damage_Classification_FineTuning_1st/1_study3_yolov8_class_categorization.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/hdmf-ai-auto-spoke/Vehicle-Damage-Detection/blob/main/notebooks/08_Damage_Classification_FineTuning_1st/1_study3_yolov8_class_categorization.ipynb)
 
 # 차량 파손 유형 분류 (Damage Categorization)
 * 탐지된 차량의 파손 부위를 크롭(Crop)하여 파손의 종류를 정밀하게 분류하는 Stage2 분류 모델 구축
