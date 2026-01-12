@@ -28,16 +28,15 @@
 
 ## Project Roadmap & Study Log
 
-| Subject| WHO | Stage | Topic | Model | Status | Report |
+| Subject| WHO | Stage | Topic | Model | Data | Report |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Data Set** |DJ| **Step 0** | 데이터셋 구축 | AI-Hub(1200) + COCO + Kaggle| ✅ Done | [상세보기](./notebooks/00_Data_Preparation/README.md) |
-| **Data Set** |DJ| **Step 1** | 데이터셋 구축 | AI-Hub(12000) + COCO + Kaggle| ✅ Done | [상세보기](./notebooks/00_Data_Preparation_ver2/README.md) |
+| **Data Set** |DJ| **Step 0** | 데이터셋 구축 | -| 1,200| [상세보기](./notebooks/00_Data_Preparation/README.md) |
+| **Data Set** |DJ| **Step 1** | 데이터셋 구축 | -| 12,000 | [상세보기](./notebooks/00_Data_Preparation_ver2/README.md) |
 | **Car Detection** |DJ| **Step 0** | 데이터셋 구축 | AI-Hub + COCO | ✅ Done | [상세보기](./notebooks/00_Data_Preparation/README.md) |
 | **Car Detection** |DJ| **Step 1** | 차량 인식 베이스라인 | YOLOv8x (Pre-trained) | ✅ Done | [상세보기](./notebooks/01_Baseline_Inference/README.md) |
 | **Car Detection** |DJ| **Step 2** | 차량 인식 1st | YOLOv8 | ✅ Done |  [상세보기](./notebooks/02_Car_Detection_FineTuning_1st/README.md) | |
 | **Car Detection** |DJ| **Step 3** | 차량 인식 2nd | YOLOv8 | ✅ Done | [상세보기](./notebooks/03_Car_Detection_FineTuning_2nd/README.md) | |
 | **Car Detection** |DJ| **Step 4** | 차량 인식 3rd | YOLOv8 | ✅ Done | [상세보기](./notebooks/04_Car_Detection_FineTuning_3rd/README.md) | |
-| **Car Detection** |DJ| **Step 5** | 차량 인식 4th | YOLOv8 | - 삭제 - |  | |
 | **Car Detection** |DJ| **Step 6** | 차량 인식 5th | YOLOv8 (12000) | ✅ Done | [상세보기](./notebooks/06_Car_Detection_FineTuning_5th/README.md) | |
 | **Damage Detection** |DJ| **Step 1** | 파손 인식 1st | YOLOv8 | ✅ Done | [상세보기](./notebooks/05_Damage_Detection_FineTuning_1st/README.md) | |
 | **Damage Detection** |DJ| **Step 2** | 파손 인식 2nd | YOLOv8 Custom | ✅ Done | [상세보기](./notebooks/06_Damage_Detection_FineTuning_2nd/README.md) | |
