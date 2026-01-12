@@ -127,6 +127,10 @@ Separated |  3,000 |이격, 벌어짐|
 | :---: | :---: | 
 | ![v1+0.25](./results/01_detection/confusion_matrix_fine_tuning_1st_025.png) | ![v1+0.10](./results/01_detection/confusion_matrix_fine_tuning_1st_010.png) |
 
+| |**confusion matrix** |
+| :---: |
+| ![confusion matrix](./results/01_detection/confusion_matrix.png) |
+
 | actual |pred | target | miss | ratio |설명|
 | :---: | :---: | :---: | :---: | :---: |  :---:| 
 | major | minor or normal | 1002 | 102 | 0.101|major miss|
