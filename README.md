@@ -32,7 +32,6 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Data Set** |DJ| **Ver0** | 데이터셋 구축 | - | Damaged 1,200 | [상세보기](./notebooks/00_Data_Preparation/README.md) |
 | **Data Set** |DJ| **Ver1** | 데이터셋 구축 | - | Damaged 12,000  | [상세보기](./notebooks/00_Data_Preparation_ver2/README.md) |
-| **Car Detection** |DJ| **Ver1** | 차량 인식 베이스라인 | YOLOv8x(Pre-trained) | Damaged 1,200 | [상세보기](./notebooks/01_Baseline_Inference/README.md) |
 | **Car Detection** |DJ| **Ver2** | 차량 인식 1st | YOLOv8 | Damaged 1,200 |  [상세보기](./notebooks/02_Car_Detection_FineTuning_1st/README.md) | |
 | **Car Detection** |DJ| **Ver3** | 차량 인식 2nd | YOLOv8 | Damaged 1,200(hybrid) | [상세보기](./notebooks/03_Car_Detection_FineTuning_2nd/README.md) | |
 | **Car Detection** |DJ| **Ver6** | 차량 인식 5th | YOLOv8 | Damaged 12,000 | [상세보기](./notebooks/06_Car_Detection_FineTuning_5th/README.md) | |
