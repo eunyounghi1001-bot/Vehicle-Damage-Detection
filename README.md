@@ -39,7 +39,7 @@
 | **Damage Detection** |JR| **Ver1** | 다양한 데이터셋 활용 | YOLOv8, Resnet18 | ✅ Done | [상세보기](./notebooks/다양한데이터셋활용/README.md) | |
 | **Damage Categorization** |JR| **Ver1** | 파손 여부 파인튜닝 | YOLOv8s | ✅ Done | [상세보기](./JR/week_03/README.md) | |
 | **Damage Categorization** |DJ| **Ver1** | 파손 유형 1st | YOLOv8 | Damaged 12,000 | [상세보기](./notebooks/08_Damage_Classification_FineTuning_1st/README.md) | |
-| **Damage Segmentation** |DJ| **Ver1** | 파손 부위 1st | YOLOv8 | Damaged 12,000 | [상세보기](./notebooks/09_Car_Damage_Segmentation_1st/README.md) | |
+| **Damage Segmentation** |DJ| **Ver1** | 파손 부위 1st | YOLOv8x_Seg,Unet | Damaged 12,000 | [상세보기](./notebooks/09_Car_Damage_Segmentation_1st/README.md) | |
 
 
 ## Tech Stack
