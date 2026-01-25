@@ -131,46 +131,6 @@
 - hard case(1) : Rear Wheel(L)
    - Wheel을 앞과 뒤, 좌와 우로 구분은 육안으로도 어려움
 
-### 클래스별 검출 수량 비교 (Class-wise Count Comparison)
-
-| Class ID (Name) | GT Count | Pred Count | Diff | Status |
-| :--- | :---: | :---: | :---: | :--- |
-| **TOTAL** | **2,649** | **7,375** | **+4,726** | 🔴 **Severe Over** |
-| 0 (Front fender(L)) | 175 | 462 | +287 | 🔴 Over |
-| 1 (Rear bumper) | 477 | 724 | +247 | 🔴 Over |
-| 2 (Front Wheel(R)) | 56 | 213 | +157 | 🔴 Over |
-| 3 (Trunk lid) | 109 | 308 | +199 | 🔴 Over |
-| 4 (Rocker panel(L)) | 36 | 172 | +136 | 🔴 Over |
-| 5 (Front fender(R)) | 168 | 449 | +281 | 🔴 Over |
-| 6 (Front bumper) | 707 | 981 | +274 | 🔴 Over |
-| 7 (Bonnet) | 83 | 343 | +260 | 🔴 Over |
-| 8 (Rear Wheel(R)) | 16 | 187 | +171 | 🔴 Over |
-| 9 (Rear door(R)) | 70 | 286 | +216 | 🔴 Over |
-| 10 (Front door(R)) | 53 | 268 | +215 | 🔴 Over |
-| 11 (Head lights(R)) | 62 | 288 | +226 | 🔴 Over |
-| 12 (Rear fender(R)) | 114 | 362 | +248 | 🔴 Over |
-| 13 (Rear fender(L)) | 102 | 345 | +243 | 🔴 Over |
-| 14 (Rocker panel(R)) | 43 | 173 | +130 | 🔴 Over |
-| 15 (Rear lamp(L)) | 37 | 110 | +73 | 🔴 Over |
-| 16 (Side mirror(R)) | 32 | 94 | +62 | 🔴 Over |
-| 17 (Rear Wheel(L)) | 6 | 85 | +79 | 🔴 Over |
-| 18 (Rear door(L)) | 46 | 244 | +198 | 🔴 Over |
-| 19 (Side mirror(L)) | 40 | 148 | +108 | 🔴 Over |
-| 20 (Head lights(L)) | 68 | 264 | +196 | 🔴 Over |
-| 21 (Front Wheel(L)) | 32 | 292 | +260 | 🔴 Over |
-| 22 (Front door(L)) | 49 | 371 | +322 | 🔴 Over |
-| 23 (Rear lamp(R)) | 24 | 158 | +134 | 🔴 Over |
-| 24 (Windshield) | 3 | 3 | 0 | 🟢 Match |
-| 26 (Undercarriage) | 2 | 0 | -2 | 🟡 Missed |
-| 27 (Rear windshield) | 1 | 16 | +15 | 🔴 Over |
-| 28 (Unknown) | 0 | 8 | +8 | 🟣 New Detect |
-| 29 (A pillar(L)) | 1 | 17 | +16 | 🔴 Over |
-| 30 (C pillar(R)) | 1 | 0 | -1 | 🟡 Missed |
-| 31 (A pillar(R)) | 4 | 4 | 0 | 🟢 Match |
-| *Invalid Labels (A, Bonnet...)* | 29 | 0 | -29 | ⚠️ Data Error |
-
-> *참고: 하단의 Invalid Labels는 학습 데이터셋(GT)의 라벨링 오류(숫자가 아닌 텍스트 등)로 추정됩니다.*
-
 ### 예측값 신뢰도 분포 (Confidence Score Distribution)
 
 모델이 예측한 객체들의 신뢰도 점수 분포입니다. **0~9점(0.1 미만) 구간의 비율이 매우 높음**을 확인
