@@ -21,7 +21,7 @@
 | 이미지 분류 | DeiT (Data-efficient ViT) | 2021 | 지식 증류를 통해 대규모 데이터 없이 ViT 학습 가능 |  |
 | 이미지 분류 | ConvNeXt | 2022 | ResNet 구조를 유지하면서 Transformer 학습 전략을 적용해 CNN SOTA 달성 |  |
 | 이미지 분류 | MaxViT | 2022 | CNN과 Window/Global Attention을 결합한 Hybrid Transformer |  |
-| 객체 탐지 | YOLO (You Only Look Once) | 2016 | 객체 탐지를 하나의 end-to-end 회귀 문제로 정의해 **실시간 객체 탐지** 달성 |  |
+| 객체 탐지 | YOLO (You Only Look Once) | 2016 | 객체 탐지를 하나의 end-to-end 회귀 문제로 정의해 **실시간 객체 탐지** 달성 | [상세보기](/.Architecture/YOLO/README.md) |
 | 객체 탐지 / 세그 | Mask R-CNN | 2017 | 객체 탐지와 픽셀 단위 마스크를 동시에 수행하는 2-stage 구조 |  |
 | 세그멘테이션 | U-Net | 2015 | Encoder–Decoder 구조와 Skip Connection으로 위치 정보와 의미 정보를 결합한 픽셀 단위 분할 |  |
 | 세그멘테이션 | DeepLabV3+ | 2018 | Atrous Convolution으로 다중 해상도 문맥 정보를 효과적으로 통합 |  |
