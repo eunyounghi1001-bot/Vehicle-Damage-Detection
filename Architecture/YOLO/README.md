@@ -36,7 +36,8 @@ YOLO는 객체 탐지를 **하나의 회귀(Regression) 문제**로 정의한다
 
 ## 3. YOLO의 기본 구조 (Overall Architecture)
 
-<img src="./images/yolo_architecture.png" width="600"/>
+<img src="./images/YOLO_img3-1.jpg" width="600"/>
+<img src="./images/YOLO_img3-2.jpg" width="600"/>
 
 ### 전체 파이프라인
 1. 입력 이미지를 **S × S grid**로 분할
@@ -75,7 +76,7 @@ YOLO는 객체 탐지를 **하나의 회귀(Regression) 문제**로 정의한다
 
 ## 5. 핵심 아이디어 ②: Global Context 활용
 
-<img src="./images/yolo_global_context.png" width="600"/>
+<img src="./images/YOLO_img5.jpg" width="600"/>
 
 YOLO는 이미지 전체를 한 번에 보기 때문에  
 local feature에만 의존하지 않는다.
@@ -91,7 +92,8 @@ local feature에만 의존하지 않는다.
 
 ## 6. YOLO 버전 진화 (YOLOv1 → YOLOv8)
 
-<img src="./images/yolo_evolution.png" width="700"/>
+<img src="./images/YOLO_img6-1.jpg" width="700"/>
+<img src="./images/YOLO_img6-2.jpg" width="700"/>
 
 | 버전 | 주요 특징 |
 |---|---|
@@ -109,7 +111,8 @@ local feature에만 의존하지 않는다.
 
 ## 7. YOLOv8 기준 아키텍처 구성
 
-<img src="./images/yolov8_architecture.png" width="700"/>
+<img src="./images/YOLO_img7-1.jpg" width="700"/>
+<img src="./images/YOLO_img7-2.jpg" width="700"/>
 
 ### 구성 요소
 1. **Backbone**
