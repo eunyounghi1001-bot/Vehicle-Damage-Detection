@@ -169,10 +169,99 @@ local feature에만 의존하지 않는다.
 ---
 
 ## 12. 참고 자료
+## YOLO 버전별 논문 및 공식 링크 정리
 
-- YOLOv1 논문  
-  https://arxiv.org/pdf/1506.02640.pdf
-- YOLOv3 논문  
-  https://arxiv.org/pdf/1804.02767.pdf
-- Ultralytics YOLO 공식 문서  
-  https://docs.ultralytics.com
+### YOLOv1 (2016)
+**You Only Look Once: Unified, Real-Time Object Detection**  
+- 최초 Single-Stage Object Detection 제안
+
+📄 논문  
+https://arxiv.org/pdf/1506.02640.pdf
+
+---
+
+### YOLOv2 / YOLO9000 (2017)
+**YOLO9000: Better, Faster, Stronger**  
+- Anchor Box 도입
+- Batch Normalization
+- Multi-scale Training
+
+📄 논문  
+https://arxiv.org/pdf/1612.08242.pdf
+
+---
+
+### YOLOv3 (2018)
+**YOLOv3: An Incremental Improvement**  
+- Multi-scale Detection
+- Darknet-53 Backbone
+
+📄 논문  
+https://arxiv.org/pdf/1804.02767.pdf
+
+---
+
+### YOLOv4 (2020)
+**YOLOv4: Optimal Speed and Accuracy of Object Detection**  
+- CSPDarknet53
+- Bag of Freebies / Specials
+
+📄 논문  
+https://arxiv.org/pdf/2004.10934.pdf
+
+---
+
+### YOLOv5 (2020~)
+> ⚠️ 공식 학술 논문 없음 (코드 중심 개발)
+
+📄 GitHub  
+https://github.com/ultralytics/yolov5
+
+📄 공식 문서  
+https://docs.ultralytics.com/yolov5/
+
+---
+
+### YOLOv6 (2022)
+**YOLOv6: A Single-Stage Object Detection Framework for Industrial Applications**  
+- 산업 환경 최적화 모델 (Meituan)
+
+📄 논문  
+https://arxiv.org/pdf/2209.02976.pdf
+
+---
+
+### YOLOv7 (2022)
+**YOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object Detectors**  
+- E-ELAN
+- Trainable Bag-of-Freebies
+
+📄 논문  
+https://arxiv.org/pdf/2207.02696.pdf
+
+---
+
+### YOLOv8 (2023~)
+> ⚠️ 공식 학술 논문 없음 (Ultralytics 주도 개발)
+
+📄 GitHub  
+https://github.com/ultralytics/ultralytics
+
+📄 공식 문서  
+https://docs.ultralytics.com
+
+---
+
+## 🔎 요약 표
+
+| YOLO 버전 | 논문 여부 | 링크 |
+|---|---|---|
+| YOLOv1 | ✅ | https://arxiv.org/pdf/1506.02640.pdf |
+| YOLOv2 | ✅ | https://arxiv.org/pdf/1612.08242.pdf |
+| YOLOv3 | ✅ | https://arxiv.org/pdf/1804.02767.pdf |
+| YOLOv4 | ✅ | https://arxiv.org/pdf/2004.10934.pdf |
+| YOLOv5 | ❌ | https://github.com/ultralytics/yolov5 |
+| YOLOv6 | ✅ | https://arxiv.org/pdf/2209.02976.pdf |
+| YOLOv7 | ✅ | https://arxiv.org/pdf/2207.02696.pdf |
+| YOLOv8 | ❌ | https://github.com/ultralytics/ultralytics |
+
