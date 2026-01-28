@@ -22,7 +22,7 @@
 
 ## 📊 2. 모델 성능 비교 요약 (Performance Summary)
 
-동일한 Test Dataset (1,800장)을 사용하여 두 모델의 **정확도(mIoU)**와 **속도(FPS)**를 측정
+동일한 Test Dataset (1,800장)을 사용하여 두 모델의 **정확도(mIoU)** 와 **속도(FPS)** 를 측정
 
 | 비교 항목 | **YOLOv8x-Seg** | **U-Net (ResNet34)** | **비고 (Winner)** |
 | :--- | :--- | :--- | :--- |
