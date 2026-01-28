@@ -23,9 +23,7 @@
 
 | binary mask matrix |
 | :---: |
-| <img src="./results/unet_mask.png" width="80%"> |
-
-
+| <img src="./results/unet_mask.png" width="50%"> |
 ---
 
 ## 📊 2. 모델 성능 비교 요약 (Performance Summary)
