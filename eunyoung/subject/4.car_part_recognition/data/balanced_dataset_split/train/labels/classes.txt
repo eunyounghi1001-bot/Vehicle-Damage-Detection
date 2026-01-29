@@ -1,0 +1,32 @@
+Front fender(L)
+Rear bumper
+Front Wheel(R)
+Trunk lid
+Rocker panel(L)
+Front fender(R)
+Front bumper
+Bonnet
+Rear Wheel(R)
+Rear door(R)
+Front door(R)
+Head lights(R)
+Rear fender(R)
+Rear fender(L)
+Rocker panel(R)
+Rear lamp(L)
+Side mirror(R)
+Rear Wheel(L)
+Rear door(L)
+Side mirror(L)
+Head lights(L)
+Front Wheel(L)
+Front door(L)
+Rear lamp(R)
+Windshield
+Roof
+Undercarriage
+Rear windshield
+C pillar(L)
+A pillar(L)
+C pillar(R)
+A pillar(R)
