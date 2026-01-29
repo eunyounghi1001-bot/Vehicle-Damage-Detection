@@ -69,10 +69,10 @@ convert_dataset.py, sampling_dataset.py
     * 투명 재질(`Windshield`, `Head lights`)이나 얇은 부품(`Pillar`) 인식률이 상대적으로 낮음.
 
 ### 3-2. Mask R-CNN
-* **성과**: Box mAP 15.4%, Mask mAP 16.5%로 기대보다 낮은 성능 기록.
+* **성과**: Box mAP 25.53%, Mask mAP 23.8%로 기대보다 낮은 성능 기록.
 * **원인 분석**:
     * **데이터 특성**: YOLO의 강력한 Mosaic Augmentation 등이 적용되지 않아, 데이터가 부족한 클래스(Wheel, Pillar 등) 학습에 실패한 것으로 추정.
-    * **속도**: 7.99 FPS로 YOLO 대비 2배 느려, 실시간 서비스에는 부적합.
+    * **속도**: 6.34 FPS로 YOLO 대비 2배 느려, 실시간 서비스에는 부적합.
 * **가능성**: 추가적인 튜닝과 데이터 증강(Augmentation)을 적용한다면 정밀도(Mask Quality)는 개선될 여지가 있음.
 
 ### 3-3. U-Net
