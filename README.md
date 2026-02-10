@@ -42,7 +42,9 @@
 | **Damage Categorization** |JR| **Ver1** | 파손 여부 파인튜닝 | YOLOv8s | ✅ Done | [상세보기](./JR/week_03/README.md) | |
 | **Damage Categorization** |DJ| **Ver1** | 파손 유형 1st | YOLOv8 | Damaged 12,000 | [상세보기](./notebooks/08_Damage_Classification_FineTuning_1st/README.md) | |
 | **Damage Segmentation** |DJ| **Ver1** | 파손 부위 1st | YOLOv8x_Seg,Mask R-CNN,Unet | Damaged 12,000 | [상세보기](./notebooks/09_Car_Damage_Segmentation_1st/README.md) | |
+| **Damage Segmentation** |DJ| **Ver2** | 파손 부위 활용(8면) | YOLOv8x_Seg,Mask R-CNN,Unet | Damaged 12,000 | [상세보기](./notebooks/10_Car_Damage_Segmentation_2nd/README.md) | |
 | **Damage Segmentation** |JR| | 파손 부위 | YOLOv8s | Damaged 12,000 | [상세보기](./JR/week_04/README.md) | |
+
 
 ## Tech Stack
 * Python 3.10
