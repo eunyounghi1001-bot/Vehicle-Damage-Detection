@@ -42,19 +42,19 @@ YOLO가 탐지한 객체(`Confidence > 0.25`)를 분석하여 4방향 점수(`F`
 - **Result**: **`Front`** (측면 점수가 아무리 높아도 무시)
 
 ### Priority 2. 동점 방지 및 정면/후면 확정 (Tie-Breaking)
-좌/우 점수가 비슷하다면, 측면이 아니라 정면/후면일 확률이 높습니다. (노이즈 방어)
+좌/우 점수가 비슷하다면, 측면이 아니라 정면/후면일 확률이 높음(노이즈 방어)
 - **Scenario**: `F=4`, `L=3`, `R=3` (범퍼도 보이고, 좌/우 휀다가 살짝씩 다 보임)
 - **Condition**: `F >= 2` AND `abs(L - R) <= 2` (좌우 점수 차이가 2점 이내)
 - **Result**: **`Front`** (대각선으로 오분류 방지)
 
 ### Priority 3. 대각선 뷰 (Corner View)
-앞쪽 점수도 높고, **한쪽** 측면 점수만 확실히 높을 때입니다.
+앞쪽 점수도 높고, **한쪽** 측면 점수만 확실히 높을 때
 - **Scenario**: `F=4` (범퍼), `L=5` (휀다+도어), `R=0`
 - **Condition**: `F >= 2` AND `L >= 2` AND `L > R` (왼쪽이 오른쪽보다 확실히 커야 함)
 - **Result**: **`Front-Left`**
 
 ### Priority 4. 완전 측면 (Pure Side)
-앞/뒤 점수는 거의 없고 측면 점수만 높을 때입니다.
+앞/뒤 점수는 거의 없고 측면 점수만 높을 때
 - **Scenario**: `F=0`, `L=6` (도어 2개), `R=0`
 - **Condition**: `L > F` AND `L > B`
 - **Result**: **`Left`**
@@ -98,6 +98,7 @@ YOLO가 탐지한 객체(`Confidence > 0.25`)를 분석하여 4방향 점수(`F`
 | <img src="./results/image30.png" width="50%"> |
 | <img src="./results/image40.png" width="50%"> |
 | <img src="./results/image50.png" width="50%"> |
+
 
 
 
