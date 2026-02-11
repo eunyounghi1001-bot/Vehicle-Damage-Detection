@@ -39,10 +39,7 @@ ConvNeXt는 다음을 수행했다:
 
 ## 3. 전체 아키텍처 구조
 
-### 📍 논문 기준 이미지
-- Figure 3 (논문 Page 5)
-
-<img src="./images/convnext_architecture.png" width="700"/>
+<img src="./images/ConvNeXt_figure3.jpg" width="700"/>
 
 ### 구조 개요
 
@@ -57,10 +54,7 @@ ResNet과 유사한 Stage 구조지만 내부 Block이 다름
 
 ## 4. ConvNeXt Block 구조
 
-### 📍 논문 기준 이미지
-- Figure 4 (논문 Page 6)
-
-<img src="./images/convnext_block.png" width="600"/>
+<img src="./ConvNeXt_figure4.jpg" width="600"/>
 
 ### Block 구성
 
@@ -113,7 +107,7 @@ ConvNeXt는 다음 Transformer 요소를 도입했다:
 ### 📍 논문 기준 이미지
 - Table 1 / Figure 5 (논문 Page 7~8)
 
-<img src="./images/convnext_results.png" width="700"/>
+<img src="./images/ConvNeXt_table1.jpg" width="700"/>
 
 ### 주요 결과
 
