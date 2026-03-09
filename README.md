@@ -25,6 +25,8 @@
 | 객체 탐지 / 세그 | Mask R-CNN | 2017 | 객체 탐지와 픽셀 단위 마스크를 동시에 수행하는 2-stage 구조 |  |
 | 세그멘테이션 | U-Net | 2015 | Encoder–Decoder 구조와 Skip Connection으로 위치 정보와 의미 정보를 결합한 픽셀 단위 분할 | [상세보기](./Architecture/U_NET/README.md) |
 | 세그멘테이션 | DeepLabV3+ | 2018 | Atrous Convolution으로 다중 해상도 문맥 정보를 효과적으로 통합 |  |
+| 멀티모달 (시각-언어) | CLIP (ViT-B/32) | 2021 | 대조 학습(**Contrastive Learning**)으로 이미지와 텍스트를 공통 공간에 매핑해 제로샷 분류 가능 | [상세보기](./Architecture/CLIP/README.md) |
+
 
 
 
