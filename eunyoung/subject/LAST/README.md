@@ -20,7 +20,7 @@
 | **RT-DETR-L** | **all** | 0.389 | **0.307** | **0.262** | **0.123** |
 
 ### 📊 클래스별 mAP50 상세 결과
-| Class | Instances | YOLOv8m | RT-DETR-L | 변동폭 |
+| Class | Instances | YOLOv8m | RT-DETR | 변동폭 |
 | :--- | :---: | :---: | :---: | :---: |
 | **scratch** | 3,648 | 0.250 | **0.262** | <span style="color:red">▲ 0.012</span> |
 | **dent** | 1,295 | 0.313 | **0.322** | <span style="color:red">▲ 0.009</span> |
