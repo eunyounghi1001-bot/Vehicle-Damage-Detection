@@ -26,7 +26,7 @@
 | 세그멘테이션 | U-Net | 2015 | Encoder–Decoder 구조와 Skip Connection으로 위치 정보와 의미 정보를 결합한 픽셀 단위 분할 | [상세보기](./Architecture/U_NET/README.md) |
 | 세그멘테이션 | DeepLabV3+ | 2018 | Atrous Convolution으로 다중 해상도 문맥 정보를 효과적으로 통합 |  |
 | 이미지 분류 / 멀티모달 (시각-언어) | CLIP (ViT-B/32) | 2021 | 대조 학습(**Contrastive Learning**)으로 이미지와 텍스트를 공통 공간에 매핑해 제로샷 분류 가능 | [상세보기](./Architecture/CLIP/README.md) |
-| 객체 탐지 / 이미지 분류 |	RT-DETR	| 2023 | NMS가 필요 없는 최초의 실시간 End-to-End 트랜스포머 모델로 YOLO를 능가하는 속도와 정확도 제공 | [상세보기](./Architecture/RT_DETR/README.md) |
+| 객체 탐지 / 이미지 분류 | RT-DETR | 2023 | NMS가 필요 없는 최초의 실시간 트랜스포머 모델로 YOLO를 능가하는 성능 제공 | [상세보기](./Architecture/RT-DETR/README.md) |
 
 
 
