@@ -48,6 +48,12 @@
 | **Damage Segmentation** |DJ| **Ver2** | 파손 부위 활용(8면) | YOLOv8x_Seg | Damaged 12,000 | [상세보기](./notebooks/10_Car_Damage_Segmentation_2nd/README.md) | |
 | **Damage Segmentation** |JR| | 파손 부위 | YOLOv8s | Damaged 12,000 | [상세보기](./JR/week_04/README.md) | |
 
+## Final Report
+| Subject| Stage | Topic | Model | Status | Report |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Car Classification** | **Step 1** | 차량 인식 | Resnet50 등 6개 | ✅ Done | [상세보기](./notebooks/11_Final_Report_Car_Classification_1st/README.md) | |
+
+
 
 ## Tech Stack
 * Python 3.10
