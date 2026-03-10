@@ -319,27 +319,3 @@ Pixel IoU = (GT_mask ∩ Pred_mask) / (GT_mask ∪ Pred_mask)
 - 모델 추론 속도
 
 <br>
-
-## 📝 Conclusion
-
-### 성능 결과
-
-- 차량 detection 기반 **2-stage damage detection pipeline 구축**
-- 차량 crop 기반 학습을 통해 **background noise 감소**
-- damage detection 성능 향상 가능성 확인
-
-
-
-### 주요 인사이트
-
-- 차량 detection을 통한 **ROI 기반 학습 데이터 구성 효과**
-- 파손 이미지 중 일부는 **차량 근접 촬영으로 detection 실패 발생**
-- crop 기반 학습 데이터 구성 시 **damage bbox 보존 전략 중요**
-
-
-
-### 한계점
-
-- GPU 환경 제한으로 **대형 모델(YOLOv8x) 실험 미진행**
-- COCO pretrained 차량 detection 의존 → **vehicle domain fine-tuning 필요 가능성**
-- extreme close-up 차량 이미지 detection 성능 한계
