@@ -629,3 +629,121 @@ YOLOv8s-seg 모델을 이용한 damage segmentation 결과
 
 Baseline 모델로는 충분하며  
 추후 **데이터 balancing, 더 큰 backbone, focal loss 적용** 등을 통해 성능 개선 가능
+
+## 최종테스트(End-to-End Damage Detection Pipeline Result)
+
+**Test Dataset**
+
+| 항목 | 값 |
+|---|---:|
+| Test Images | 1,376 |
+| Ground Truth Instances | 3,049 |
+| Predicted Instances | 908 |
+
+---
+
+**1. Detection Performance**
+
+| Metric | Value |
+|---|---:|
+| True Positive (TP) | 699 |
+| False Positive (FP) | 209 |
+| False Negative (FN) | 2,350 |
+| Precision | **0.7698** |
+| Recall | **0.2293** |
+| F1 Score | **0.3533** |
+
+---
+
+**2. Matched Instance Performance**
+
+| Metric | Value |
+|---|---:|
+| Matched Pair Count | 699 |
+| Damage Classification Accuracy | **0.9285** |
+| Part Classification Accuracy | **0.5794** |
+| Joint Accuracy (Damage + Part) | **0.5451** |
+
+---
+
+**3. End-to-End Pipeline Performance**
+
+| Metric | Value |
+|---|---:|
+| End-to-End Exact Recall | **0.1250** |
+
+---
+
+**4. Result Interpretation**
+
+**Detection**
+
+- Precision이 **0.77로 비교적 높은 수준**
+- 그러나 Recall은 **0.23으로 낮음**
+- 즉 **모델이 보수적으로 detection 수행**
+
+**Damage Classification**
+
+- Damage class 정확도 **92.8%**
+- damage classification은 매우 안정적인 성능
+
+**Part Classification**
+
+- Part class 정확도 **57.9%**
+- 차량 부위 분류는 **long-tail 문제로 성능 제한**
+
+**End-to-End**
+
+전체 pipeline 기준
+
+```
+Detection → Damage Classification → Part Classification
+```
+
+모든 단계가 동시에 맞는 비율
+
+```
+End-to-End Exact Recall = 12.5%
+```
+
+---
+
+**5. Summary**
+
+주요 결과
+
+| 항목 | 성능 |
+|---|---|
+| Detection Precision | 0.77 |
+| Detection Recall | 0.23 |
+| Damage Accuracy | 0.93 |
+| Part Accuracy | 0.58 |
+| Joint Accuracy | 0.55 |
+| End-to-End Recall | 0.125 |
+
+### Best 10
+
+<img src = './images/week_06_img_best1.png' witdh=700>
+<img src = './images/week_06_img_best2.png' witdh=700>
+<img src = './images/week_06_img_best3.png' witdh=700>
+<img src = './images/week_06_img_best4.png' witdh=700>
+<img src = './images/week_06_img_best5.png' witdh=700>
+<img src = './images/week_06_img_best6.png' witdh=700>
+<img src = './images/week_06_img_best7.png' witdh=700>
+<img src = './images/week_06_img_best8.png' witdh=700>
+<img src = './images/week_06_img_best9.png' witdh=700>
+<img src = './images/week_06_img_best10.png' witdh=700>
+
+
+### Worst 10
+
+<img src = './images/week_06_img_worst1.png' witdh=700>
+<img src = './images/week_06_img_worst2.png' witdh=700>
+<img src = './images/week_06_img_worst3.png' witdh=700>
+<img src = './images/week_06_img_worst4.png' witdh=700>
+<img src = './images/week_06_img_worst5.png' witdh=700>
+<img src = './images/week_06_img_worst6.png' witdh=700>
+<img src = './images/week_06_img_worst7.png' witdh=700>
+<img src = './images/week_06_img_worst8.png' witdh=700>
+<img src = './images/week_06_img_worst9.png' witdh=700>
+<img src = './images/week_06_img_worst10.png' witdh=700>
