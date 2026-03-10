@@ -340,9 +340,9 @@ Pixel IoU = (GT_mask ∩ Pred_mask) / (GT_mask ∪ Pred_mask)
 
 ### Future Work
 
-- **Faster R-CNN confidence 및 NMS 파라미터 튜닝**
-- **RT-DETR 추가 데이터 확보 및 hyperparameter tuning**
-- **YOLOv8 모델의 tuning 전 baseline 성능 비교 실험**
-- **Stage2 damage detection 데이터셋 확장 및 augmentation 전략 개선**
+- Faster R-CNN confidence 및 NMS 파라미터 튜닝
+- RT-DETR 추가 데이터 확보 및 hyperparameter tuning
+- YOLOv8 모델의 tuning 전 baseline 성능 비교 실험
+- Stage2 damage detection 데이터셋 확장 및 augmentation 전략 개선
 
 <br>
