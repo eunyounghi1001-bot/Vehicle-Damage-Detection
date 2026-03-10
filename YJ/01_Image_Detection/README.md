@@ -248,7 +248,6 @@ Stage1에서 추출한 **vehicle bbox 기반으로 ROI crop dataset 생성**
 | Model | Type | Key 특징 | Experiment 목적 |
 |---|---|---|---|
 | **YOLOv8n** | One-stage | 경량 모델, 빠른 inference 속도 | baseline 성능 확인 |
-| **YOLOv8m** | One-stage | YOLOv8n 대비 더 큰 모델, 성능 향상 기대 | 정확도 향상 여부 확인 |
 | **RT-DETR** | Transformer-based | NMS-free detection, global attention 기반 object detection | transformer 기반 detector 성능 비교 |
 | **Faster R-CNN** | Two-stage | region proposal 기반 detection, 높은 localization accuracy | 전통적인 two-stage detector 성능 비교 |
 
@@ -259,7 +258,6 @@ Stage1에서 추출한 **vehicle bbox 기반으로 ROI crop dataset 생성**
 | Model | mAP@50-95 | mAP@50 | Pixel IoU | Pixel Recall | Damage Recall | Train Time(s) | Inference Time(s) |
 |------|------|------|------|------|------|------|------|
 | YOLOv8n | 0.18 | 0.28 | 0.41 | 0.51 | 0.86 | 3545.6 | 35.37 |
-| YOLOv8s | - | - | - | - | - | - | - |
 | RT-DETR | 0.23 | 0.34 | 0.46 | 0.71 | 1.0 | 8674.3 | 21.97 |
 | Faster R-CNN | - | - | - | - | - | - | - |
 
