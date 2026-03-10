@@ -21,7 +21,7 @@
 
 학습이 진행됨에 따라 손실(Loss)이 감소하고 정확도(mAP)가 향상되는 추이를 확인할 수 있습니다.
 
-![Results](results.jpg)
+![Results](results.png)
 *그림 1. 에폭별 Loss 및 주요 지표 변화 추이*
 
 ---
