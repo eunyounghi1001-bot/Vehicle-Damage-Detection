@@ -68,29 +68,6 @@ AI_HUB 차량 파손 이미지 데이터
 
 ### 가. 데이터 분포 분석 (EDA)
 
-- Damage 클래스 분포
-
-| Damage Class | Count |
-|---|---:|
-| Scratched | 36,664 |
-| Separated | 13,095 |
-| Crushed | 10,416 |
-| Breakage | 9,066 |
-| Missing | 29,805 |
-
-- Part 클래스 분포
-
-| Part Class | Count |
-|---|---:|
-| Front bumper | 7,310 |
-| Rear bumper | 4,639 |
-| Front fender(R) | 1,930 |
-| Front fender(L) | 1,875 |
-| Trunk lid | 1,444 |
-| Bonnet | 1,434 |
-| ... | ... |
-| Roof | 9 |
-
 - 데이터 특징
 
 1. **Damage 클래스는 4개**  
@@ -445,38 +422,210 @@ damage + part 결과 생성
 
 ---
 
-## 5. 평가 방법
+## 5. 평가
 
-Prediction과 Ground Truth를
+### 가. YOLOv8 Damage Segmentation Model Validation Result
 
-```
-mask IoU ≥ 0.1
-```
+**1. Model Configuration**
 
-기준으로 매칭
+| 항목 | 값 |
+|---|---|
+| Model | YOLOv8s-seg |
+| Framework | Ultralytics 8.4.21 |
+| Python | 3.12.12 |
+| Torch | 2.10.0 + CUDA 12.8 |
+| GPU | NVIDIA A100-SXM4-80GB |
+| Model Parameters | 11,781,148 |
+| GFLOPs | 39.9 |
 
-평가 지표
+---
 
-### Detection
+**2. Validation Dataset**
 
-```
-Precision
-Recall
-F1-score
-```
+| 항목 | 값 |
+|---|---:|
+| Validation Images | 1,376 |
+| Total Instances | 3,049 |
+| Background Images | 0 |
+| Corrupt Images | 0 |
 
-### Classification
+---
 
-```
-damage accuracy
-part accuracy
-joint accuracy
-```
+**3. Overall Detection Performance**
 
-### End-to-End
+**Bounding Box**
 
-```
-damage + part 동시에 맞춘 비율
-```
+| Metric | Value |
+|---|---:|
+| Precision | 0.297 |
+| Recall | 0.241 |
+| mAP50 | 0.190 |
+| mAP50-95 | 0.084 |
 
-### 차량 파손 분석 문제를 **YOLOv8 기반 damage segmentation과 ResNet 기반 part classification을 결합한 2-stage 파이프라인 모델**로 해결
+**Segmentation Mask**
+
+| Metric | Value |
+|---|---:|
+| Precision | 0.251 |
+| Recall | 0.202 |
+| mAP50 | 0.142 |
+| mAP50-95 | 0.049 |
+
+---
+
+**4. Class-wise Segmentation Performance**
+
+| Damage Class | Images | Instances | Box Precision | Box Recall | Box mAP50 | Box mAP50-95 | Mask Precision | Mask Recall | Mask mAP50 | Mask mAP50-95 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Scratched | 1046 | 1569 | 0.318 | 0.349 | 0.250 | 0.114 | 0.280 | 0.296 | 0.189 | 0.061 |
+| Separated | 267 | 321 | 0.237 | 0.047 | 0.064 | 0.030 | 0.170 | 0.031 | 0.036 | 0.011 |
+| Crushed | 571 | 735 | 0.330 | 0.268 | 0.224 | 0.093 | 0.269 | 0.210 | 0.146 | 0.050 |
+| Breakage | 369 | 424 | 0.303 | 0.300 | 0.220 | 0.099 | 0.287 | 0.271 | 0.199 | 0.074 |
+
+---
+
+**5. Inference Speed**
+
+| 단계 | 시간 |
+|---|---:|
+| Preprocess | 0.7 ms |
+| Inference | 1.3 ms |
+| Postprocess | 1.4 ms |
+| Total per image | 약 3.4 ms |
+
+---
+
+**6. Key Metrics Summary**
+
+| Metric | Value |
+|---|---:|
+| Box mAP50 | **0.1896** |
+| Box mAP50-95 | **0.0840** |
+| Segmentation mAP50 | **0.1425** |
+| Segmentation mAP50-95 | **0.0491** |
+
+---
+
+**7. Result Interpretation**
+
+**Performance Characteristics**
+
+- **Scratched 클래스 성능이 가장 안정적**
+- **Separated 클래스는 recall이 매우 낮음**
+- 전체적으로 **Segmentation 성능(mAP50-95 ≈ 0.05)** 은 낮은 편
+
+**Possible Reasons**
+
+1. Damage 영역이 매우 작은 경우 많음  
+2. Damage class 간 시각적 차이가 미묘함  
+3. 데이터 imbalance 존재  
+4. Segmentation mask 품질 편차
+
+---
+
+**8. Summary**
+
+YOLOv8s-seg 모델을 이용한 damage segmentation 결과
+
+- **Segmentation mAP50 : 0.142**
+- **Segmentation mAP50-95 : 0.049**
+
+스터디 목적의 baseline 모델로 사용하기에는 충분하며  
+이후 **데이터 증강 / class balancing / 더 큰 모델(YOLOv8m/l)** 등을 통해 성능 개선 가능하다.
+
+### 2-Stage Part Classification Model Result (ResNet18)
+
+**1. Model Overview**
+
+| 항목 | 값 |
+|---|---|
+| Model | ResNet18 |
+| Input Size | 224 × 224 |
+| Task | Vehicle Part Classification |
+| Training Strategy | Damage segmentation 결과를 crop 후 part classification 수행 (2-Stage pipeline) |
+
+---
+
+**2. Training Result**
+
+| Metric | Value |
+|---|---:|
+| Train Loss | 1.6108 |
+| Train Accuracy | 0.5259 |
+| Validation Loss | 1.8772 |
+| Validation Accuracy | **0.4337** |
+
+**Best Model**
+
+| 항목 | 값 |
+|---|---|
+| Best Epoch | 8 |
+| Best Validation Accuracy | **0.4337** |
+| Model Path | `/content/workdir/_runs_part_classifier/part_resnet18_study_ep8_img224/best_part_resnet18.pth` |
+
+---
+
+**3. Test Result**
+
+| Metric | Value |
+|---|---:|
+| Test Loss | 1.9188 |
+| Test Accuracy | **0.4352** |
+
+---
+
+**4. Per-Class Accuracy (Top Classes)**
+
+| Part Class | Test Samples | Correct | Accuracy |
+|---|---:|---:|---:|
+| Front bumper | 847 | 634 | **0.7485** |
+| Rear bumper | 547 | 248 | 0.4534 |
+| Bonnet | 124 | 63 | 0.5081 |
+| Front Wheel(R) | 58 | 35 | 0.6034 |
+| Rocker panel(R) | 48 | 29 | 0.6042 |
+| Head lights(L) | 67 | 29 | 0.4328 |
+| Front fender(R) | 243 | 73 | 0.3004 |
+| Trunk lid | 152 | 42 | 0.2763 |
+
+---
+
+**5. Low-Accuracy Classes**
+
+| Part Class | Accuracy |
+|---|---:|
+| Rear fender(L) | 0.0306 |
+| Rear Wheel(R) | 0.0385 |
+| Rear door(L) | 0.0556 |
+| Rocker panel(L) | 0.0000 |
+| Rear Wheel(L) | 0.0000 |
+
+---
+
+**6. Result Interpretation**
+
+**Overall Performance**
+
+- **Test Accuracy ≈ 43.5%**
+- Front bumper, wheels 등 **대표적인 차량 부위는 높은 정확도**
+- 일부 part 클래스는 **샘플 부족으로 성능 저하**
+
+**Observed Characteristics**
+
+| 특징 | 설명 |
+|---|---|
+| Class Imbalance | Front bumper 데이터가 매우 많음 |
+| Long-tail Distribution | 일부 part는 샘플이 매우 적음 |
+| Visual Similarity | Fender / Door / Panel 구분이 어려움 |
+
+---
+
+**7. Summary**
+
+2-Stage 파이프라인에서 **ResNet18 기반 part classifier**는
+
+- **전체 Test Accuracy : 43.5%**
+- **Front bumper 등 주요 부위는 높은 정확도**
+- **Long-tail 클래스에서 성능 저하**
+
+Baseline 모델로는 충분하며  
+추후 **데이터 balancing, 더 큰 backbone, focal loss 적용** 등을 통해 성능 개선 가능
