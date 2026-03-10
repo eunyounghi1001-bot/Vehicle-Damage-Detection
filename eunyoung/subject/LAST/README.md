@@ -32,7 +32,7 @@
 ## 3. 핵심 분석 결과 (Key Insights)
 
 ### **1) 모델 구조 변경 효과**
-* CNN 기반의 **YOLOv8m**에서 Transformer 기반의 **RT-DETR-L**로 변경 시, 전체 mAP50이 **0.258 → 0.262**로 소폭 향상되었습니다.
+* CNN 기반의 **YOLOv8m**에서 Transformer 기반의 **RT-DETR**로 변경 시, 전체 mAP50이 **0.258 → 0.262**로 소폭 향상되었습니다.
 * 특히 전역적 문맥(Context) 파악이 중요한 `scratch`와 `separated` 클래스에서 Transformer의 장점이 발휘되어 성능 개선이 확인되었습니다.
 
 ### **2) Recall(재현율) 정체 현상**
