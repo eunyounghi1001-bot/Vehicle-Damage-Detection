@@ -64,11 +64,11 @@ AI_HUB 차량 파손 이미지 데이터
 | **Total** | **99,046** |
 
 
-# 차량 파손 분석 모델 설계 배경 및 학습 방법
+## 2. 차량 파손 분석 모델 설계 배경 및 학습 방법
 
-## 1. 데이터 분포 분석 (EDA)
+### 가. 데이터 분포 분석 (EDA)
 
-### Damage 클래스 분포
+- Damage 클래스 분포
 
 | Damage Class | Count |
 |---|---:|
@@ -78,7 +78,7 @@ AI_HUB 차량 파손 이미지 데이터
 | Breakage | 9,066 |
 | Missing | 29,805 |
 
-### Part 클래스 분포
+- Part 클래스 분포
 
 | Part Class | Count |
 |---|---:|
@@ -91,16 +91,16 @@ AI_HUB 차량 파손 이미지 데이터
 | ... | ... |
 | Roof | 9 |
 
-### 데이터 특징
+- 데이터 특징
 
 1. **Damage 클래스는 4개**  
 2. **Part 클래스는 30+ **  
 3. **데이터가 불균형**
 4. **Damage만 존재하거나 Part만 존재하는 annotation이 많음**
 
-# 2. 모델 설계 전략
+## 3. 모델 설계 전략
 
-위 데이터 구조를 고려하여 **2-stage 파이프라인 모델**을 설계
+- 위 데이터 구조를 고려하여 **2-stage 파이프라인 모델**을 설계
 
 ```
 입력 이미지
@@ -123,9 +123,9 @@ damage + part
 
 ---
 
-# 3. YOLOv8 Segmentation
+### YOLOv8 Segmentation
 
-## 1. 파손 위치 탐지
+**1. 파손 위치 탐지**
 
 ```
 차량 전체 이미지
@@ -140,7 +140,7 @@ damage + part
 
 ---
 
-## 2. Damage 클래스 수가 적음
+**2. Damage 클래스 수가 적음**
 
 Damage 클래스
 
@@ -159,7 +159,7 @@ Breakage
 
 ---
 
-# 3. Part Classification 모델 분리
+**3. Part Classification 모델 분리**
 
 Part 클래스 분포를 보면 다음 특징이 있다.
 
@@ -171,13 +171,11 @@ Front fender(R)   1930
 Roof                9
 ```
 
-즉
-
-**극단적인 long-tail 분포**
+즉 **극단적인 long-tail 분포**
 
 ---
 
-## 문제점
+**문제점**
 
 YOLO segmentation으로
 
@@ -197,7 +195,7 @@ damage + part
 
 ---
 
-## 해결 전략
+**해결 전략**
 
 문제를 **두 단계로 분리**
 
@@ -208,7 +206,7 @@ damage + part
 
 ---
 
-# 5. Part Classification 모델
+**5. Part Classification 모델**
 
 사용 모델
 
@@ -216,15 +214,13 @@ damage + part
 ResNet18
 ```
 
-선택 이유
-
 - 이미지 분류에 매우 안정적
 - 학습 속도 빠름
 - small dataset에서도 잘 동작
 
 ---
 
-## 입력 데이터
+**입력 데이터**
 
 YOLO segmentation 결과에서
 
@@ -251,7 +247,7 @@ part classifier
 
 ---
 
-# 6. 학습 데이터 생성 방법
+**6. 학습 데이터 생성 방법**
 
 원본 annotation 구조
 
@@ -262,11 +258,11 @@ part segmentation
 
 하지만 둘이 **직접 연결되어 있지 않다.**
 
-따라서 다음 방식으로 매칭하였다.
+따라서 다음 방식으로 매칭
 
 ---
 
-## IoU 기반 매칭
+**IoU 기반 매칭**
 
 damage mask와 part mask의 겹침을 계산
 
@@ -287,9 +283,7 @@ damage → part
 
 ---
 
-## 결과
-
-### IoU 기반 Damage–Part 매칭 분석
+### 결과: **IoU 기반 Damage–Part 매칭 분석**
 
 **1. 기본 통계**
 
@@ -426,7 +420,7 @@ part classification
 
 ---
 
-# 7. Inference Pipeline
+## 4. Inference Pipeline
 
 추론 단계
 
@@ -451,7 +445,7 @@ damage + part 결과 생성
 
 ---
 
-# 8. 평가 방법
+## 5. 평가 방법
 
 Prediction과 Ground Truth를
 
@@ -485,40 +479,4 @@ joint accuracy
 damage + part 동시에 맞춘 비율
 ```
 
----
-
-# 9. 이 접근 방식의 장점
-
-## 1. 문제를 단순화
-
-```
-detection 문제
-+
-classification 문제
-```
-
-로 분리
-
----
-
-## 2. 데이터 불균형 완화
-
-Part 분류를 별도 모델로 처리
-
----
-
-## 3. 높은 확장성
-
-추가 클래스 발생 시
-
-```
-part classifier만 재학습
-```
-
-가능
-
----
-
-# 10. 한 줄 요약
-
-> 차량 파손 분석 문제를 **YOLOv8 기반 damage segmentation과 ResNet 기반 part classification을 결합한 2-stage 파이프라인 모델**로 해결하였다.
+### 차량 파손 분석 문제를 **YOLOv8 기반 damage segmentation과 ResNet 기반 part classification을 결합한 2-stage 파이프라인 모델**로 해결
