@@ -328,7 +328,7 @@ Pixel IoU = (GT_mask ∩ Pred_mask) / (GT_mask ∪ Pred_mask)
    - Transformer 기반 모델임에도 **비교적 적은 데이터에서 안정적인 detection 성능 확인**
 - **Pixel-level IoU 및 Image-level Recall 지표를 통해 파손 위치 탐지 성능 효과적으로 평가**
 
----
+<br>
 
 ### Limitations
 
@@ -336,7 +336,7 @@ Pixel IoU = (GT_mask ∩ Pred_mask) / (GT_mask ∪ Pred_mask)
   - bbox 과다 예측으로 **precision 및 mAP 성능 저하**
 - **YOLOv8 baseline 모델의 tuning 적용 상태로 공정한 baseline 비교 한계**
 
----
+<br>
 
 ### Future Work
 
@@ -344,3 +344,5 @@ Pixel IoU = (GT_mask ∩ Pred_mask) / (GT_mask ∪ Pred_mask)
 - **RT-DETR 추가 데이터 확보 및 hyperparameter tuning**
 - **YOLOv8 모델의 tuning 전 baseline 성능 비교 실험**
 - **Stage2 damage detection 데이터셋 확장 및 augmentation 전략 개선**
+
+<br>
