@@ -52,7 +52,8 @@
 | Subject| Stage | Topic | Model | Status | Report |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Car Classification** | **Step 1** | 차량 인식 | Resnet50 등 5개 | ✅ Done | [상세보기](./notebooks/11_Final_Report_Car_Classification_1st/README.md) | |
-| **Vehicle 8-View Classification** | **Step 2** | 차량 방향 인식 | yolov8m-cls | ✅ Done | [상세보기]([./notebooks/11_Final_Report_Car_Classification_1st/README.md](https://9dw2yzy8eh9gebqhybmnmy.streamlit.app/)) | |
+| **Vehicle 8-View Classification** | **Step 2** | 차량 방향 인식 | yolov8m-cls | ✅ Done | [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://9dw2yzy8eh9gebqhybmnmy.streamlit.app/) |
+
 
 
 ## Tech Stack
