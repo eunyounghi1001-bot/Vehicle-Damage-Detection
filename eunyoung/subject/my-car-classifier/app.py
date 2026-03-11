@@ -12,7 +12,7 @@ st.write("사진을 올리면 YOLOv8 모델이 8개 부위로 자동 분류합�
 @st.cache_resource
 def load_model():
     # 학습한 best.pt 파일 경로를 지정하세요
-    return YOLO('train_result/weights/best.pt')
+    return YOLO('eunyoung/subject/my-car-classifier/best.pt')
 
 model = load_model()
 class_names = ['front', 'front_left', 'front_right', 'left', 'rear', 'rear_left', 'rear_right', 'right']
