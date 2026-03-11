@@ -36,7 +36,7 @@
 ### 1. Confusion Matrix
 전면(Front)과 후면(Rear)에서 100%의 정확도를 보이며, 대칭 구조인 측면/대각선 방향에서 일부 혼동이 발생합니다.
 
-![Confusion Matrix](./result/confusion_matrix_normalized.png)
+![Confusion Matrix](./result/confusion_matrix.png)
 
 ### 2. Training Results
 50 Epoch 학습 결과, Loss가 안정적으로 수렴하며 Accuracy가 우상향하는 것을 확인할 수 있습니다.
