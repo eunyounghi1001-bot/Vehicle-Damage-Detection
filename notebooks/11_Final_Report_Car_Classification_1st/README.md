@@ -179,6 +179,7 @@
 #### 실행 방법 (How to Run)
 첨부된 Gradio_Car_Detection.ipynb 실행
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/hdmf-ai-auto-spoke/Vehicle-Damage-Detection/blob/main/notebooks/11_Final_Report_Car_Classification_1st/Gradio/Gradio_Car_Detection.ipynb)
 
 
 
