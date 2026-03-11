@@ -55,8 +55,11 @@
 ## 📂 File Structure
 ```text
 my-car-classifier/
-├── app.py              # Streamlit Web App
-├── best.pt             # Trained YOLOv8m-cls Model
-├── train_car_classifier.ipynb  # Model Training Notebook
-├── requirements.txt    # Python Dependencies
-└── packages.txt        # System Dependencies (libGL)
+├── 2026_03_11_Vehicle_8_View_Classification.ipynb  # 모델 학습 과정 및 실험 기록
+├── app.py                      # Streamlit 웹 어플리케이션 구동 코드
+├── best.pt                     # 학습 완료된 YOLOv8m-cls 가중치 파일 (31.7MB)
+├── requirements.txt            # Python 라이브러리 의존성 (ultralytics, streamlit 등)
+├── packages.txt                # Linux 시스템 의존성 (OpenCV용 libGL 등)
+├── README.md                   # 프로젝트 상세 리포트 및 매뉴얼
+├── result/                     # Confusion Matrix, Loss Curve 등 학습 결과 이미지
+└── test_sample/                # 데모 시연 및 테스트를 위한 샘플 차량 이미지
